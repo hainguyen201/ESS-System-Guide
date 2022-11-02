@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title>Thiết lập và khai báo ban đầu - Hướng dẫn sử dụng hệ thống vESS</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+        <link href="../../css/extra.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Thi\u1ebft l\u1eadp v\u00e0 khai b\u00e1o ban \u0111\u1ea7u";
+        var mkdocs_page_input_path = "esign\\initialization.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <script src="../../js/jquery-3.6.0.min.js" defer></script>
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+      <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../.." class="icon icon-home"> Hướng dẫn sử dụng hệ thống vESS
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../..">Trang chủ</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Đăng ký, đăng nhập</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../saas/saas/">Đăng ký & cài đặt</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-login/">Đăng nhập, đăng xuất</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-QRcode/">Đăng nhập bằng QR code</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-DangNhapG/">Đăng nhập bằng G+</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-xac-thuc-hai-buoc/">Xác thực 2 bước</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Nhân sự</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../hrm/introduction/">Giới thiệu về phân hệ Quản lý nhân sự</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../hrm/initialization/">Thiết lập và khai báo ban đầu</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../hrm/abbreviations/">Các thuật ngữ và từ viết tắt</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../hrm/master-datas/">Khai báo danh mục</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../hrm/recruitment/">Tuyển dụng</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../hrm/employee/">Nhân viên</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../hrm/attendance/">Chấm công</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../hrm/payroll/">Tính lương</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../hrm/log-histories/">Lịch sử phát triển sản phẩm</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Kế toán - Dành cho doanh nghiệp</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-introduction/">Giới thiệu về phân hệ Kế toán</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-initialization/">Thiết lập và khai báo ban đầu</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-abbreviations/">Các thuật ngữ và từ viết tắt</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-danh-muc-new/">Khai báo danh mục</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-tien-TM/">Quản lý tiền - Tiền mặt</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-tien-NH/">Quản lý tiền - Tiền gửi</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-mua-hang/">Mua hàng</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-ban-hang/">Bán hàng</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-hoa-don-dien-tu/">Hóa đơn</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-ke-toan-tong-hop/">Tổng hợp</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-kho/">Kho vận</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-thue/">Thuế</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-tscd/">Tài sản cố định</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-ccdc/">Công cụ dụng cụ</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-giathanh/">Giá thành</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-bao-cao/">Báo cáo</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-log-histories/">Lịch sử phát triển sản phẩm</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Kế toán - Dành cho hộ, cá thể</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance_TT88/fin-introduction-88/">Giới thiệu về phân hệ Kế toán</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance_TT88/fin-initialization-88/">Thiết lập và khai báo ban đầu</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance_TT88/fin-abbreviations-88/">Các thuật ngữ và từ viết tắt</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance_TT88/fin-danh-muc-new-88/">Khai báo danh mục</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance_TT88/fin-tien-TM-88/">Quản lý tiền - Tiền mặt</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance_TT88/fin-tien-NH-88/">Quản lý tiền - Tiền gửi</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance_TT88/fin-mua-hang-88/">Mua hàng</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance_TT88/fin-ban-hang-88/">Bán hàng</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance_TT88/fin-hoa-don-dien-tu-88/">Hóa đơn điện tử</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance_TT88/fin-ke-toan-tong-hop-88/">Kế toán</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance_TT88/fin-kho-88/">Kho vận</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance_TT88/fin-thue-88/">Thuế</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance_TT88/fin-bao-cao-88/">Báo cáo</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance_TT88/fin-log-histories-88/">Lịch sử phát triển sản phẩm</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Tài liệu</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../document/introduction/">Giới thiệu về ứng dụng Tài liệu</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../document/abbreviations/">Các thuật ngữ và từ viết tắt</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../document/initialization/">Thiết lập và khai báo ban đầu</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../document/document/">Tài liệu</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../document/Addon-Tailieu-mobile/">Quản lý tài liệu trên điện thoại</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Ký số</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../introduction/">Giới thiệu về ứng dụng Ký số</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="./">Thiết lập và khai báo ban đầu</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#tai-plugin-chung-thu-so-e-su-dung-usb-token">Tải plugin chứng thư số để sử dụng usb-token</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#loai-van-ban-trinh-ky">Loại văn bản trình ký</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#vai-tro-ky">Vai trò ký</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#tai-khoan-ky">Tài khoản ký</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#luu-mau-trinh-ky-van-ban">Lưu mẫu trình ký văn bản</a>
+    </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../esign/">Ký số</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Digital workplace</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Gioi-thieu-digital-workplace/">Giới thiệu về phân hệ Digital workplace</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/dw-initialization/">Thiết lập và khai báo ban đầu</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Thuat-ngu-viet-tat/">Các thuật ngữ và từ viết tắt</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-Website/">Trang web</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-Social/">Mạng xã hội</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-project/">Dự án</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-khao-sat/">Khảo sát</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-ghi-chu/">Ghi chú</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-timesheet/">Timesheet</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-su-kien/">Sự kiện</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-bua-an/">Bữa ăn</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-PheDuyet-Web/">Phê duyệt trên web</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-meeting/">Cuộc họp trực tuyến</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-KPI/">Chỉ số đo lường KPI</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-OKR/">Chỉ số đo lường OKR</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Lich-su-phat-trien/">Lịch sử phát triển sản phẩm</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">vESS Mobile</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Gioi-thieu-vess-mobile/">Giới thiệu về vESS mobile</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Mobile-initialization/">Thiết lập và khai báo ban đầu</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Thuat-ngu-viet-tat/">Các thuật ngữ và từ viết tắt</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Mobile-dang-nhap/">Đăng nhập</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Addon-phe-duyet/">Phê duyệt trên mobile</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Addon-ky-so/">Ký số</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Addon_BuaAn/">Bữa ăn</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Addon_DuAn/">Dự án</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Addon_Lich/">Lịch</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Mobile-Lich-su-phat-trien/">Lịch sử phát triển sản phẩm</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">vContract - Hợp đồng điện tử</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../vContract/thiet-lap-luong-ky/">Thiết lập luồng ký hợp đồng</a>
+                  </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../release-notes/">Release Notes</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../..">Hướng dẫn sử dụng hệ thống vESS</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../.." class="icon icon-home" alt="Docs"></a> &raquo;</li>
+          <li>Ký số &raquo;</li>
+      <li>Thiết lập và khai báo ban đầu</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h2 id="thiet-lap-va-khai-bao-du-lieu-ban-au">Thiết lập và khai báo dữ liệu ban đầu</h2>
+<p>Việc thiết lập và khai báo ban đầu được thực hiện khi lần đầu cài đặt ứng dụng, giúp khởi tạo dữ liệu và bắt đầu cho việc thực hiện các nghiệp vụ ký số. </p>
+<h3 id="tai-plugin-chung-thu-so-e-su-dung-usb-token"><strong>Tải plugin chứng thư số để sử dụng usb-token</strong></h3>
+<p>Để USB token để ký số, người dùng cần phải tải plugin <a href="https://drive.google.com/file/d/1AhSJmYcurxkwipzxEM4T4HcHi5yKH80Q/view">tại đây</a> về máy để chạy mỗi khi thực hiện ký. Trước khi thực hiện ký số với usb token, cần phải chạy tệp plugin này. </p>
+<h3 id="loai-van-ban-trinh-ky">Loại văn bản trình ký</h3>
+<p>Cho phép khai báo và quản lý thông tin về các loại văn bản  trên hệ thống, các quy tắc tự sinh số văn bản khi được ban hành. </p>
+<p><strong>Đối tượng thực hiện: Quản trị hệ thống (Admin)</strong></p>
+<p><strong>Các bước thực hiện:</strong> </p>
+<ol>
+<li>Vào <strong>Cấu hình</strong> &gt; chọn <strong>Loại tài liệu trình ký</strong></li>
+</ol>
+<p>​   <img alt="img" src="../images/clip_image050.jpg" /></p>
+<ul>
+<li>Hiển thị danh sách các loại văn bản trình ký được khai báo trên hệ thống.</li>
+<li>
+<p>Thông tin hiển thị: Tên, Mã văn bản</p>
+</li>
+<li>
+<p>Để khai báo loại văn bản mới, người dùng kích nút <strong>Tạo</strong>. Trên màn hình tạo mới, khai báo các thông tin chi tiết của <strong>Loại văn bản trình ký</strong></p>
+</li>
+</ul>
+<p><img alt="" src="../images/clip_image052.jpg" /></p>
+<ul>
+<li>
+<p>Nhập Tên loại văn bản trình ký</p>
+</li>
+<li>
+<p>Nhập Quy tắc đánh mã: Nhập quy tắc sẽ đánh số văn bản để hệ thống tự sinh số văn bản khi được ban hành tự động. Quy tắc sinh mã có sử dụng các tham số được định nghĩa ở danh sách tham số cấu hình ở bên dưới theo cấu trúc khai báo {tên tham số}. </p>
+</li>
+</ul>
+<p>Ví dụ: Một tờ trình có số văn bản khi ban hành được hệ thống tự sinh theo quy tắc sinh mã: <strong>TT/{năm}/{số thứ tự}</strong> , khi khai báo sẽ thực hiện như sau: </p>
+<pre><code> - Nhập vào trường Quy tắc đánh mã: **TT/{năm}/{số thứ tự}**, trong đó **năm** và **số thứ tự** là các tham số tự sinh cần khai báo ở phần danh sách tham số cấu hình bên dưới.
+
+ - Tại phần Tham số cấu hình, kích nút **Thêm tham số** để cấu hình cho từng tham số
+
+   -  Trường Tên: nhập tên tham số phải duy nhất trong danh sách tham số
+
+   - Kiểu: chọn kiểu dữ liệu tương ứng với tham số, ví dụ **số thứ tự** thì chọn kiểu số. Hệ thống đang hỗ trợ một số kiểu như số, ngày, tháng, năm, văn bản.   
+   - Giá trị khởi tạo:  Nhập giá trị khởi tạo để bắt đầu tính quy tắc,  ví dụ số thứ tự với giá trị khởi tạo là 1 thì khi sinh số văn bản sẽ tính từ 1 và tăng dần lên.
+
+   - Ô tích / bỏ tích **Cho phép cập nhật**: nếu được tích chọn thì khi ban hành văn bản người dùng có thể thay đổi giá trị ứng với tham số này.
+
+     ![image-20211109144337318](images/image-20211109144337318.png)
+</code></pre>
+<h3 id="vai-tro-ky">Vai trò ký</h3>
+<p>Cho phép khai báo và quản lý thông tin về các vai trò khi ký của người dùng  trên ứng dụng. </p>
+<p><strong>Đối tượng thực hiện: Quản trị hệ thống (Admin)</strong></p>
+<p><strong>Các bước thực hiện:</strong> </p>
+<ol>
+<li>Người dùng chọn <strong>Cấu hình</strong> &gt;Kích chọn <strong>Vai trò kí</strong></li>
+</ol>
+<p><img alt="img" src="../images/clip_image062.jpg" /></p>
+<ul>
+<li>Hiển thị danh sách các vai trò ký được khai báo trên hệ thống.</li>
+<li>
+<p>Thông tin hiển thị: Tên vai trò và lựa chọn Có người xem xét </p>
+</li>
+<li>
+<p>Click <strong>Tạo</strong> để khai báo các thông tin vai trò ngay trên danh sách: </p>
+</li>
+</ul>
+<p><img alt="img" src="../images/clip_image064.jpg" /></p>
+<ul>
+<li>Tên: nhập tên vai trò</li>
+<li>Tích chọn Có người xem xét:  </li>
+<li>Tích tùy chọn này với các vai trò cần phải qua người văn thư, thư ký xét duyệt trước khi gửi tới người ký </li>
+<li>
+<p>Không tích với các trường hợp không cần qua bộ phần xét duyệt trước.</p>
+</li>
+<li>
+<p>Kích<strong>Lưu</strong></p>
+</li>
+</ul>
+<h3 id="tai-khoan-ky">Tài khoản ký</h3>
+<p>Cho phép khai báo và quản lý thông tin về các tài khoản được thực hiện ký  trên hệ thống.</p>
+<p><strong>Đối tượng thực hiện: </strong></p>
+<p>·     <strong>Người quản trị hệ thống:</strong> khai báo các tài khoản ký cho người dùng</p>
+<p>·     <strong>Người dùng: </strong> Chỉ xem thông tin tài khoản của mình và có quyền chỉnh sửa ảnh chân ký và thông tin ký CA </p>
+<p><strong>Các bước thực hiện:</strong> </p>
+<ol>
+<li>Chọn <strong>Cấu hình</strong> &gt; Kích<strong>Tài khoản kí</strong></li>
+</ol>
+<p><img alt="img" src="../images/clip_image056.jpg" /></p>
+<ul>
+<li>Hiển thị danh sách các tài khoản ký đã khai báo trên hệ thống.</li>
+<li>
+<p>Các thông tin hiển thị: Tên tài khoản, email, số điện thoại, có ký số, vai trò...</p>
+</li>
+<li>
+<p>Để khai báo tài khoản ký mới, kích nút <strong>Tạo</strong>:</p>
+</li>
+</ul>
+<p>​    <img alt="image-20211013122404429" src="../images/image-20211013122404429.png" /></p>
+<ul>
+<li>Nhập <strong>Tài khoản kí</strong>: Nhập @ tìm kiếm và chọn người dùng để tạo tài khoản kí. Mỗi người dùng tồn tại duy nhất trong danh sách tài khoản kí. </li>
+</ul>
+<p><strong>Chú ý</strong>: Điều kiện để cấu hình tài khoản ký cho một người là người đó phải có tài khoản sử dụng trên hệ thống. Trường hợp chưa có tài khoản thì cần liên hệ quản trị được tạo người dùng trước. </p>
+<ul>
+<li>
+<p>Chọn <strong>vai trò</strong>: Mỗi người dùng có thể có một hoặc kiêm nhiệm nhiều vai trò. </p>
+</li>
+<li>
+<p>Chọn <strong>Người xem xét</strong>: với vai trò yêu cầu có người xem xét thì bắt buộc phải cấu hình người xem xét từ danh sách người dùng. </p>
+</li>
+<li>
+<p><strong>Có ký điện tử?</strong>: Nếu tích chọn thì người dùng có thể sử dụng chữ ký số, ngược lại thì chỉ ký duyệt thông thường. </p>
+</li>
+<li>
+<p>Tab <strong>Ảnh chân ký</strong>: Người dùng tải lên hệ thống ảnh chữ ký mộc dùng cho cá nhân để thêm vào văn bản sau khi ký duyệt (nếu yêu cầu). Mỗi tài khoản ký có thể cấu hình tối đa 3 loại chữ ký.  Kích thước ảnh chân ký phải thỏa mãn tỷ lệ 3:2, chiều rộng ảnh thuộc khoảng 200 px - 279px . Ngày hiệu lực mặc định là ngày tải ảnh chân ký tương ứng lên hệ thống. </p>
+</li>
+<li>
+<p>Tab <strong>Chứng thư số</strong>: Cấu hình chứng thư số để xác thực khi người dùng ký duyệt các văn bản. Chứng thư số cần phải được cấu hình trước khi thực hiện ký số để xác thực người ký. </p>
+</li>
+</ul>
+<p><img alt="image-20211013123042271" src="../images/image-20211013123042271.png" /></p>
+<p>Để lấy serial chứng thư số cần thực hiện các bước sau: </p>
+<ul>
+<li>Bước 1: Tải plugin ký số <a href="https://drive.google.com/file/d/1AhSJmYcurxkwipzxEM4T4HcHi5yKH80Q/view?usp=sharing">tại đây</a> về máy tính cá nhân và kích chạy tệp vừa tải về</li>
+<li>Bước 2: Cắm usb token chứa chứng thư số vào máy tính </li>
+<li>
+<p>Bước 3: kích nút <strong>Tải chứng thư số</strong>  -&gt; lựa chọn chứng thư số còn hiệu lực. </p>
+</li>
+<li>
+<p>Click <strong>Lưu</strong></p>
+</li>
+</ul>
+<h3 id="luu-mau-trinh-ky-van-ban">Lưu mẫu trình ký văn bản</h3>
+<p>Chức năng cho phép mỗi người dùng tạo và quản lý những mẫu trình ký thường xuyên sử dụng. </p>
+<p><strong>Các bước để tạo mẫu trình ký</strong></p>
+<p>Có 2 cách để tạo mẫu trình ký</p>
+<p><strong><u>Cách 1</u>:</strong> </p>
+<ol>
+<li>Vào <strong>Cấu hình</strong> &gt; chọn <strong>Mẫu tài khoản kí</strong></li>
+</ol>
+<p><img alt="img" src="../images/clip_image066.jpg" /></p>
+<ul>
+<li>Hiển thị danh sách tất cả mẫu tài khoản kí đã tạo trong hệ thống</li>
+<li>Các chức năng có trong màn hình danh sách bao gồm: Tạo mới, chỉnh sửa, xóa, xuất danh sách mẫu tài khoản kí</li>
+<li>
+<p>Nhập thông tin muốn tìm kiếm vào thanh tìm kiếm</p>
+</li>
+<li>
+<p>Click <strong>Tạo</strong> &gt; Khai báo thông tin tạo mới mẫu tài khoản kí</p>
+</li>
+</ul>
+<p><img alt="img" src="../images/clip_image068.jpg" /></p>
+<ul>
+<li>
+<p>Nhập tên mẫu danh sách ký</p>
+</li>
+<li>
+<p>Chọn phạm vi </p>
+</li>
+<li>
+<p>Nhập tên và chọn Tài khoản kí</p>
+</li>
+<li>
+<p>Click <strong>Lưu</strong></p>
+</li>
+<li>
+<p>Thực hiện yêu cầu tạo mới Mẫu kí: Kiểm tra thông tin dữ liệu trên màn hình và tùy chính thông tin Tạo mới</p>
+</li>
+</ul>
+<p><strong><u>Cách 2</u>:</strong>  Tạo mẫu trình ký nhanh trong khi tạo văn bản trình ký </p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../introduction/" class="btn btn-neutral float-left" title="Giới thiệu về ứng dụng Ký số"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../esign/" class="btn btn-neutral float-right" title="Ký số">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+      <p>Prepared by <a href="https://vess.vn/">vESS Team - Viettel Group.</a></p>
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../introduction/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../esign/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme_extra.js" defer></script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="../../js/extra.js" defer></script>
+      <script src="../../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>

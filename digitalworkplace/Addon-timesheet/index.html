@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title>Timesheet - Hướng dẫn sử dụng hệ thống vESS</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+        <link href="../../css/extra.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Timesheet";
+        var mkdocs_page_input_path = "digitalworkplace\\Addon-timesheet.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <script src="../../js/jquery-3.6.0.min.js" defer></script>
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+      <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../.." class="icon icon-home"> Hướng dẫn sử dụng hệ thống vESS
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../..">Trang chủ</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Đăng ký, đăng nhập</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../saas/saas/">Đăng ký & cài đặt</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Addon-login/">Đăng nhập, đăng xuất</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Addon-QRcode/">Đăng nhập bằng QR code</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Addon-DangNhapG/">Đăng nhập bằng G+</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Addon-xac-thuc-hai-buoc/">Xác thực 2 bước</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Nhân sự</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../hrm/introduction/">Giới thiệu về phân hệ Quản lý nhân sự</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../hrm/initialization/">Thiết lập và khai báo ban đầu</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../hrm/abbreviations/">Các thuật ngữ và từ viết tắt</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../hrm/master-datas/">Khai báo danh mục</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../hrm/recruitment/">Tuyển dụng</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../hrm/employee/">Nhân viên</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../hrm/attendance/">Chấm công</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../hrm/payroll/">Tính lương</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../hrm/log-histories/">Lịch sử phát triển sản phẩm</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Kế toán - Dành cho doanh nghiệp</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-introduction/">Giới thiệu về phân hệ Kế toán</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-initialization/">Thiết lập và khai báo ban đầu</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-abbreviations/">Các thuật ngữ và từ viết tắt</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-danh-muc-new/">Khai báo danh mục</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-tien-TM/">Quản lý tiền - Tiền mặt</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-tien-NH/">Quản lý tiền - Tiền gửi</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-mua-hang/">Mua hàng</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-ban-hang/">Bán hàng</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-hoa-don-dien-tu/">Hóa đơn</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-ke-toan-tong-hop/">Tổng hợp</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-kho/">Kho vận</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-thue/">Thuế</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-tscd/">Tài sản cố định</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-ccdc/">Công cụ dụng cụ</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-giathanh/">Giá thành</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-bao-cao/">Báo cáo</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-log-histories/">Lịch sử phát triển sản phẩm</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Kế toán - Dành cho hộ, cá thể</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance_TT88/fin-introduction-88/">Giới thiệu về phân hệ Kế toán</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance_TT88/fin-initialization-88/">Thiết lập và khai báo ban đầu</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance_TT88/fin-abbreviations-88/">Các thuật ngữ và từ viết tắt</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance_TT88/fin-danh-muc-new-88/">Khai báo danh mục</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance_TT88/fin-tien-TM-88/">Quản lý tiền - Tiền mặt</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance_TT88/fin-tien-NH-88/">Quản lý tiền - Tiền gửi</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance_TT88/fin-mua-hang-88/">Mua hàng</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance_TT88/fin-ban-hang-88/">Bán hàng</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance_TT88/fin-hoa-don-dien-tu-88/">Hóa đơn điện tử</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance_TT88/fin-ke-toan-tong-hop-88/">Kế toán</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance_TT88/fin-kho-88/">Kho vận</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance_TT88/fin-thue-88/">Thuế</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance_TT88/fin-bao-cao-88/">Báo cáo</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance_TT88/fin-log-histories-88/">Lịch sử phát triển sản phẩm</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Tài liệu</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../document/introduction/">Giới thiệu về ứng dụng Tài liệu</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../document/abbreviations/">Các thuật ngữ và từ viết tắt</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../document/initialization/">Thiết lập và khai báo ban đầu</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../document/document/">Tài liệu</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../document/Addon-Tailieu-mobile/">Quản lý tài liệu trên điện thoại</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Ký số</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../esign/introduction/">Giới thiệu về ứng dụng Ký số</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../esign/initialization/">Thiết lập và khai báo ban đầu</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../esign/esign/">Ký số</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Digital workplace</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../Gioi-thieu-digital-workplace/">Giới thiệu về phân hệ Digital workplace</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../dw-initialization/">Thiết lập và khai báo ban đầu</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Thuat-ngu-viet-tat/">Các thuật ngữ và từ viết tắt</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Addon-Website/">Trang web</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Addon-Social/">Mạng xã hội</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Addon-project/">Dự án</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Addon-khao-sat/">Khảo sát</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Addon-ghi-chu/">Ghi chú</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="./">Timesheet</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#quan-ly-thoi-gian-bieu">Quản lý thời gian biểu</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#thoi-gian-bieu-cua-toi">Thời gian biểu của tôi</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#tat-ca-thoi-gian-bieu">Tất cả thời gian biểu</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#bao-cao-thoi-gian-bieu">Báo cáo thời gian biểu</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#bao-cao-theo-nhan-vien">Báo cáo theo nhân viên</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#bao-cao-theo-du-an">Báo cáo theo dự án</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#bao-cao-theo-cong-viec">Báo cáo theo công việc</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#quan-ly-cau-hinh-thoi-gian-bieu">Quản lý cấu hình thời gian biểu</a>
+    </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Addon-su-kien/">Sự kiện</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Addon-bua-an/">Bữa ăn</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Addon-PheDuyet-Web/">Phê duyệt trên web</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Addon-meeting/">Cuộc họp trực tuyến</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Addon-KPI/">Chỉ số đo lường KPI</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Addon-OKR/">Chỉ số đo lường OKR</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Lich-su-phat-trien/">Lịch sử phát triển sản phẩm</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">vESS Mobile</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Gioi-thieu-vess-mobile/">Giới thiệu về vESS mobile</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Mobile-initialization/">Thiết lập và khai báo ban đầu</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Thuat-ngu-viet-tat/">Các thuật ngữ và từ viết tắt</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Mobile-dang-nhap/">Đăng nhập</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Addon-phe-duyet/">Phê duyệt trên mobile</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Addon-ky-so/">Ký số</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Addon_BuaAn/">Bữa ăn</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Addon_DuAn/">Dự án</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Addon_Lich/">Lịch</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Mobile-Lich-su-phat-trien/">Lịch sử phát triển sản phẩm</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">vContract - Hợp đồng điện tử</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../vContract/thiet-lap-luong-ky/">Thiết lập luồng ký hợp đồng</a>
+                  </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../release-notes/">Release Notes</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../..">Hướng dẫn sử dụng hệ thống vESS</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../.." class="icon icon-home" alt="Docs"></a> &raquo;</li>
+          <li>Digital workplace &raquo;</li>
+      <li>Timesheet</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="quy-trinh-nghiep-vu">Quy trình nghiệp vụ</h1>
+<p>Cho phép người dùng quản lý thực hiện lập vào theo dõi thời gian biểu cá nhân hoặc của nhóm trên từng dự án hoặc nhiệm vụ và theo dõi tất cả các tài nguyên được phân bổ cho dự án.</p>
+<p><strong>Quy trình</strong></p>
+<p><img alt="" src="../picture/PIC_DW_Timesheets_QuyTrinh.png" /></p>
+<p><strong>Các luồng quy trình</strong></p>
+<ul>
+<li>
+<p>Quản lý thời gian biểu. Chi tiết nghiệp vụ <u><a href="#quan-ly-thoi-gian-bieu">tại đây</a></u>.</p>
+</li>
+<li>
+<p>Báo cáo thời gian biểu. Chi tiết nghiệp vụ <u><a href="#bao-cao-thoi-gian-bieu">tại đây</a></u>.</p>
+</li>
+<li>
+<p>Quản lý cấu hình thời gian biểu. Chi tiết nghiệp vụ <u><a href="#quan-ly-cau-hinh-thoi-gian-bieu">tại đây</a></u>.</p>
+</li>
+</ul>
+<p><strong>Mô tả nghiệp vụ</strong>
+Khi người sử dụng muốn quản lý thời gian biểu thì quy trình thực hiện như sau:</p>
+<ol>
+<li>
+<p>Tại <strong>Thời gian làm việc</strong>, người sử dụng ghi lại thời gian thực hiện cho từng nhiệm vụ của cá nhân theo ngày tương ứng. </p>
+</li>
+<li>
+<p>Người sử dụng theo dõi và quản lý danh sách các công việc cá nhân hoặc của người dùng khác trên hệ thống tại <strong>Thời gian làm việc</strong>, <strong>Tất cả thời gian làm việc</strong>.</p>
+</li>
+<li>
+<p>Người sử dụng thực hiện việc báo cáo theo Nhân viên, Dự án hoặc Công việc để quản lý và theo dõi thời gian biểu theo điều kiện được chọn</p>
+</li>
+<li>
+<p>Tại <strong>Cấu hình</strong>, người sử dụng thực hiện cấu hình đơn vị tính thời gian cho thời gian biểu</p>
+</li>
+</ol>
+<p><strong>Luồng chức năng chính</strong></p>
+<ul>
+<li>
+<p>Thời gian biểu của tôi. Chi tiết nghiệp vụ <u><a href="#thoi-gian-bieu-cua-toi">tại đây</a></u>.</p>
+</li>
+<li>
+<p>Tất cả thời gian biểu. Chi tiết nghiệp vụ <u><a href="#tat-ca-thoi-gian-bieu">tại đây</a></u>.</p>
+</li>
+<li>
+<p>Báo cáo theo nhân viên. Chi tiết nghiệp vụ <u><a href="#bao-cao-theo-nhan-vien">tại đây</a></u>.</p>
+</li>
+<li>
+<p>Báo cáo theo dự án. Chi tiết nghiệp vụ <u><a href="#bao-cao-theo-du-an">tại đây</a></u>.</p>
+</li>
+<li>
+<p>Báo cáo theo công việc. Chi tiết nghiệp vụ <u><a href="#bao-cao-theo-cong-viec">tại đây</a></u>.</p>
+</li>
+<li>
+<p>Quản lý cấu hình thời gian biểu. Chi tiết nghiệp vụ <u><a href="#quan-ly-cau-hinh-thoi-gian-bieu">tại đây</a></u>.</p>
+</li>
+</ul>
+<p><strong>Video hướng dẫn</strong></p>
+<h2 id="quan-ly-thoi-gian-bieu"><strong>Quản lý thời gian biểu</strong></h2>
+<h3 id="thoi-gian-bieu-cua-toi"><strong>Thời gian biểu của tôi</strong></h3>
+<p>Người sử dụng ghi lại thời gian thực hiện cho từng nhiệm vụ của cá nhân theo ngày tương ứng. Sau đó thực hiện theo dõi và quản lý danh sách các công việc cá nhân.</p>
+<p><strong>Đối tượng thực hiện:</strong> Người sử dụng hệ thống</p>
+<ol>
+<li>
+<p>Vào chức năng <strong>Timesheets</strong>, chọn <strong>Thời gian làm việc</strong> (Hoặc thực hiện <strong>Tìm kiếm</strong> trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)
+<img alt="" src="../picture/PIC_DW_Timesheets_Menu.png" /></p>
+<ul>
+<li>
+<p>Với <strong>Thời gian làm việc</strong>, người dùng hệ thống sẽ chỉ nhìn thấy danh sách công việc cá nhân.</p>
+</li>
+<li>
+<p><strong>Ghi chú</strong>: Người dùng có thể quản lý Thời gian biểu tại chức năng <strong>Dự án</strong>, chọn <strong>Dự án/Task</strong>. Chọn <strong>Nhiệm vụ</strong> thuộc dự án, nhấn <strong>Timesheet/Thêm một dòng</strong></p>
+</li>
+</ul>
+</li>
+<li>
+<p>Khai báo các thông tin chi tiết của <strong>Thời gian làm việc:</strong>
+<img alt="" src="../picture/PIC_DW_Timesheets_Tao.png" /></p>
+<ul>
+<li>
+<p>Chọn thông tin Dự án</p>
+<ul>
+<li>Danh sách dự án để lựa chọn sẽ được người quản lý thêm ở chức năng Dự án<ul>
+<li>Chọn thông tin Công việc đã tạo trước đó hoặc người dùng có thể tự tạo thêm công việc</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Chọn thông tin Ước tính còn lại là Điều chỉnh tự động, Sử dụng ước tính hiện có, Đặt thành hoặc Giảm bằng</p>
+<ul>
+<li>
+<p><strong>Lưu ý</strong> khi chọn Ước tính còn lại là Đặt thành hoặc Giảm bằng, người dùng phải khai báo thêm thông tin Thời gian còn lại</p>
+</li>
+<li>
+<p>Với Ước tính còn lại là Điều chỉnh tự động thì Thời gian còn lại của công việc sẽ bằng Thời gian ước lượng để hoàn thành công việc trừ đi Thời gian đã thực hiện</p>
+</li>
+<li>
+<p>Với ước tính còn lại là Không đặt ước tính, Thời gian còn lại của công việc giữ nguyên không đổi</p>
+</li>
+<li>
+<p>Với Ước tính còn lại là Đặt thành, Thời gian còn lại của công việc sẽ bằng thời gian được khai báo tại Thời gian còn lại</p>
+</li>
+<li>
+<p>Với Ước tính còn lại là Giảm bằng, Thời gian còn lại sẽ bằng thông tin khai báo tại Thời gian còn lại trừ đi Thời gian đã thực hiện </p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Nhấn <strong>Lưu</strong></p>
+</li>
+<li>
+<p>Người sử dụng thực hiện <strong>Xuất</strong> toàn bộ danh sách hoặc một số thời gian biểu cá nhân cần thiết để theo dõi</p>
+</li>
+</ol>
+<h3 id="tat-ca-thoi-gian-bieu"><strong>Tất cả thời gian biểu</strong></h3>
+<p>Người sử dụng thực hiện theo dõi và quản lý danh sách tất cả thời gian biểu của người dùng trên hệ thống.</p>
+<p><strong>Đối tượng thực hiện:</strong> Người sử dụng là Quản trị hệ thống hoặc Quản lý</p>
+<ol>
+<li>
+<p>Vào chức năng <strong>Timesheets</strong>, chọn <strong>Tất cả thời gian làm việc</strong> (Hoặc thực hiện <strong>Tìm kiếm</strong> trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)
+<img alt="" src="../picture/PIC_DW_Timesheets_TatCaThoiGianLamViec.png" /></p>
+<ul>
+<li>Khi người dùng đăng nhập là Quản trị hệ thống, người dùng sẽ nhìn thấy toàn bộ danh sách thời gian biểu của toàn bộ người dùng trong hệ thống. Trường hợp người dùng đăng nhập là Quản lý sẽ chỉ nhìn thấy danh sách thời gian biểu của những người dùng thuộc quyền quản lý.</li>
+</ul>
+</li>
+<li>
+<p>Quản trị hệ thống hoặc Quản lý khai báo các thông tin chi tiết cần thay đổi của <strong>Tất cả thời gian làm việc:</strong></p>
+</li>
+<li>
+<p>Chọn thông tin Ước tính còn lại là Điều chỉnh tự động, Sử dụng ước tính hiện có, Đặt thành hoặc Giảm bằng</p>
+<ul>
+<li>
+<p><strong>Lưu ý</strong> khi chọn Ước tính còn lại là Đặt thành hoặc Giảm bằng, người dùng phải khai báo thêm thông tin Thời gian còn lại</p>
+</li>
+<li>
+<p>Với Ước tính còn lại là Điều chỉnh tự động thì Thời gian còn lại của công việc sẽ bằng Thời gian ước lượng để hoàn thành công việc trừ đi Thời gian đã thực hiện</p>
+</li>
+<li>
+<p>Với ước tính còn lại là Không đặt ước tính, Thời gian còn lại của công việc giữ nguyên không đổi</p>
+</li>
+<li>
+<p>Với Ước tính còn lại là Đặt thành, Thời gian còn lại của công việc sẽ bằng thời gian được khai báo tại Thời gian còn lại</p>
+</li>
+<li>
+<p>Với Ước tính còn lại là Giảm bằng, Thời gian còn lại sẽ bằng thông tin khai báo tại Thời gian còn lại trừ đi Thời gian đã thực hiện </p>
+</li>
+</ul>
+</li>
+<li>
+<p>Nhấn <strong>Lưu</strong></p>
+</li>
+<li>
+<p>Quản trị hệ thống hoặc Quản lý thực hiện <strong>Xuất</strong> toàn bộ danh sách hoặc một số thời gian biểu cần thiết để theo dõi</p>
+</li>
+</ol>
+<h2 id="bao-cao-thoi-gian-bieu"><strong>Báo cáo thời gian biểu</strong></h2>
+<h3 id="bao-cao-theo-nhan-vien"><strong>Báo cáo theo nhân viên</strong></h3>
+<p>Người sử dụng thực hiện Báo cáo theo nhân viên để quản lý và theo dõi hiệu suất làm việc của nhân viên trong từng tháng </p>
+<p><strong>Đối tượng thực hiện:</strong> Người sử dụng là Quản trị hệ thống hoặc Quản lý</p>
+<ol>
+<li>
+<p>Vào chức năng <strong>Timesheets</strong>, chọn <strong>Báo cáo theo nhân viên</strong> (Hoặc thực hiện <strong>Tìm kiếm</strong> trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)
+<img alt="" src="../picture/PIC_DW_Timesheets_BCTheoNV.png" /></p>
+</li>
+<li>
+<p>Người dùng thực hiện thay đổi dữ liệu cần thống kê theo nhu cầu (nếu có)</p>
+<ul>
+<li>Chọn <strong>- Tổng</strong> để loại bỏ điều kiện thống kê hiện tại theo hàng hoặc cột</li>
+</ul>
+<p><img alt="" src="../picture/PIC_DW_Timesheets_XoaBoLoc.png" /></p>
+<ul>
+<li>Chọn <strong>+ Tổng</strong> để tạo mới điều kiện thống kê báo cáo theo hàng hoặc cột</li>
+</ul>
+<p><img alt="" src="../picture/PIC_DW_Timesheets_TaoBoLoc.png" /></p>
+</li>
+<li>
+<p>Người dùng chọn <strong>View graph</strong> để xem báo cáo dưới dạng biểu đồ</p>
+</li>
+<li>
+<p>Thực hiện <strong>Xuất toàn bộ</strong> báo cáo theo nhân viên</p>
+</li>
+</ol>
+<h3 id="bao-cao-theo-du-an"><strong>Báo cáo theo dự án</strong></h3>
+<p>Người sử dụng thực hiện Báo cáo theo dự án để quản lý và theo dõi hiệu suất, thời gian sử dụng để thực hiện dự án</p>
+<p><strong>Đối tượng thực hiện:</strong> Người sử dụng là Quản trị hệ thống hoặc Quản lý</p>
+<ol>
+<li>
+<p>Vào chức năng <strong>Timesheets</strong>, chọn <strong>Báo cáo theo dự án</strong> (Hoặc thực hiện <strong>Tìm kiếm</strong> trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)
+<img alt="" src="../picture/PIC_DW_Timesheets_BCTheoDuAn.png" /></p>
+</li>
+<li>
+<p>Người dùng thực hiện thay đổi dữ liệu cần thống kê theo nhu cầu (nếu có)</p>
+<ul>
+<li>Chọn <strong>- Tổng</strong> để loại bỏ điều kiện thống kê hiện tại theo hàng hoặc cột</li>
+</ul>
+<p><img alt="" src="../picture/PIC_DW_Timesheets_XoaBoLoc.png" /></p>
+<ul>
+<li>Chọn <strong>+ Tổng</strong> để tạo mới điều kiện thống kê báo cáo theo hàng hoặc cột</li>
+</ul>
+<p><img alt="" src="../picture/PIC_DW_Timesheets_TaoBoLoc.png" /></p>
+</li>
+<li>
+<p>Người dùng chọn <strong>View graph</strong> để xem báo cáo dưới dạng biểu đồ</p>
+</li>
+<li>
+<p>Thực hiện <strong>Xuất toàn bộ</strong> báo cáo theo dự án</p>
+</li>
+</ol>
+<h3 id="bao-cao-theo-cong-viec"><strong>Báo cáo theo công việc</strong></h3>
+<p>Người sử dụng thực hiện Báo cáo theo công việc để quản lý và theo dõi hiệu suất, thời gian sử dụng để thực hiện công việc</p>
+<p><strong>Đối tượng thực hiện:</strong> Người sử dụng là Quản trị hệ thống hoặc Quản lý</p>
+<ol>
+<li>
+<p>Vào chức năng <strong>Timesheets</strong>, chọn <strong>Báo cáo theo công việc</strong> (Hoặc thực hiện <strong>Tìm kiếm</strong> trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)
+<img alt="" src="../picture/PIC_DW_Timesheets_BCTheoCongViec.png" /></p>
+</li>
+<li>
+<p>Người dùng thực hiện thay đổi dữ liệu cần thống kê theo nhu cầu (nếu có)</p>
+<ul>
+<li>Chọn <strong>- Tổng</strong> để loại bỏ điều kiện thống kê hiện tại theo hàng hoặc cột</li>
+</ul>
+<p><img alt="" src="../picture/PIC_DW_Timesheets_XoaBoLoc.png" /></p>
+<ul>
+<li>Chọn <strong>+ Tổng</strong> để tạo mới điều kiện thống kê báo cáo theo hàng hoặc cột</li>
+</ul>
+<p><img alt="" src="../picture/PIC_DW_Timesheets_TaoBoLoc.png" /></p>
+</li>
+<li>
+<p>Người dùng chọn <strong>View graph</strong> để xem báo cáo dưới dạng biểu đồ</p>
+</li>
+<li>
+<p>Thực hiện <strong>Xuất toàn bộ</strong> báo cáo theo công việc</p>
+</li>
+</ol>
+<h2 id="quan-ly-cau-hinh-thoi-gian-bieu"><strong>Quản lý cấu hình thời gian biểu</strong></h2>
+<p>Người sử dụng thực hiện <strong>Cấu hình</strong> đơn vị tính thời gian cho thời gian biểu là Giờ hoặc Ngày </p>
+<p>Luồng sau: Sau khi lưu cấu hình đơn vị tính, đơn vị được cấu hình sẽ hiển thị tại <strong>Thời gian làm việc</strong>, <strong>Tất cả thời gian làm việc</strong> và <strong>Báo cáo</strong></p>
+<p><strong>Đối tượng thực hiện:</strong> Người sử dụng là Quản trị hệ thống</p>
+<ol>
+<li>
+<p>Vào chức năng <strong>Timesheets</strong>, chọn <strong>Cấu hình</strong> (Hoặc thực hiện <strong>Tìm kiếm</strong> trực tiếp chức năng trên ô tìm kiếm chung của hệ thống)
+<img alt="" src="../picture/PIC_DW_Timesheets_CauHinh.png" /></p>
+</li>
+<li>
+<p>Chọn Đơn vị tính là Ngày hoặc Giờ</p>
+<ul>
+<li>
+<p>Mặc định Thời lượng sẽ có Đơn vị tính là Giờ</p>
+</li>
+<li>
+<p>Với đơn vị tính là Giờ, tại <strong>Thời gian làm việc</strong>, <strong>Tất cả thời gian làm việc</strong> và <strong>Báo cáo</strong> hiển thị Thời lượng theo đơn vị là Giờ </p>
+</li>
+<li>
+<p>Với đơn vị tính là Ngày, tại <strong>Thời gian làm việc</strong>, <strong>Tất cả thời gian làm việc</strong> và <strong>Báo cáo</strong> hiển thị Thời lượng theo đơn vị là Ngày. Khi đó Thời lượng (Ngày) sẽ bằng Thời lượng (Giờ)/24</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Nhấn <strong>Lưu</strong> để lưu thông tin cấu hình</p>
+</li>
+</ol>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../Addon-ghi-chu/" class="btn btn-neutral float-left" title="Ghi chú"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../Addon-su-kien/" class="btn btn-neutral float-right" title="Sự kiện">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+      <p>Prepared by <a href="https://vess.vn/">vESS Team - Viettel Group.</a></p>
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../Addon-ghi-chu/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../Addon-su-kien/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme_extra.js" defer></script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="../../js/extra.js" defer></script>
+      <script src="../../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>

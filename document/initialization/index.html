@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title>Thiết lập và khai báo ban đầu - Hướng dẫn sử dụng hệ thống vESS</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+        <link href="../../css/extra.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Thi\u1ebft l\u1eadp v\u00e0 khai b\u00e1o ban \u0111\u1ea7u";
+        var mkdocs_page_input_path = "document\\initialization.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <script src="../../js/jquery-3.6.0.min.js" defer></script>
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+      <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../.." class="icon icon-home"> Hướng dẫn sử dụng hệ thống vESS
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../..">Trang chủ</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Đăng ký, đăng nhập</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../saas/saas/">Đăng ký & cài đặt</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-login/">Đăng nhập, đăng xuất</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-QRcode/">Đăng nhập bằng QR code</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-DangNhapG/">Đăng nhập bằng G+</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-xac-thuc-hai-buoc/">Xác thực 2 bước</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Nhân sự</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../hrm/introduction/">Giới thiệu về phân hệ Quản lý nhân sự</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../hrm/initialization/">Thiết lập và khai báo ban đầu</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../hrm/abbreviations/">Các thuật ngữ và từ viết tắt</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../hrm/master-datas/">Khai báo danh mục</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../hrm/recruitment/">Tuyển dụng</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../hrm/employee/">Nhân viên</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../hrm/attendance/">Chấm công</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../hrm/payroll/">Tính lương</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../hrm/log-histories/">Lịch sử phát triển sản phẩm</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Kế toán - Dành cho doanh nghiệp</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-introduction/">Giới thiệu về phân hệ Kế toán</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-initialization/">Thiết lập và khai báo ban đầu</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-abbreviations/">Các thuật ngữ và từ viết tắt</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-danh-muc-new/">Khai báo danh mục</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-tien-TM/">Quản lý tiền - Tiền mặt</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-tien-NH/">Quản lý tiền - Tiền gửi</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-mua-hang/">Mua hàng</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-ban-hang/">Bán hàng</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-hoa-don-dien-tu/">Hóa đơn</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-ke-toan-tong-hop/">Tổng hợp</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-kho/">Kho vận</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-thue/">Thuế</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-tscd/">Tài sản cố định</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-ccdc/">Công cụ dụng cụ</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-giathanh/">Giá thành</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-bao-cao/">Báo cáo</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance/fin-log-histories/">Lịch sử phát triển sản phẩm</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Kế toán - Dành cho hộ, cá thể</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance_TT88/fin-introduction-88/">Giới thiệu về phân hệ Kế toán</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance_TT88/fin-initialization-88/">Thiết lập và khai báo ban đầu</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance_TT88/fin-abbreviations-88/">Các thuật ngữ và từ viết tắt</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance_TT88/fin-danh-muc-new-88/">Khai báo danh mục</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance_TT88/fin-tien-TM-88/">Quản lý tiền - Tiền mặt</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance_TT88/fin-tien-NH-88/">Quản lý tiền - Tiền gửi</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance_TT88/fin-mua-hang-88/">Mua hàng</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance_TT88/fin-ban-hang-88/">Bán hàng</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance_TT88/fin-hoa-don-dien-tu-88/">Hóa đơn điện tử</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance_TT88/fin-ke-toan-tong-hop-88/">Kế toán</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance_TT88/fin-kho-88/">Kho vận</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance_TT88/fin-thue-88/">Thuế</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance_TT88/fin-bao-cao-88/">Báo cáo</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../finance_TT88/fin-log-histories-88/">Lịch sử phát triển sản phẩm</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Tài liệu</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../introduction/">Giới thiệu về ứng dụng Tài liệu</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../abbreviations/">Các thuật ngữ và từ viết tắt</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="./">Thiết lập và khai báo ban đầu</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#tao-va-thiet-lap-phan-quyen-cho-nguoi-dung">Tạo và thiết lập phân quyền cho người dùng</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#tao-thu-muc-luu-tru">Tạo thư mục lưu trữ</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#tao-va-quan-ly-nhan">Tạo và quản lý nhãn</a>
+    </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../document/">Tài liệu</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Addon-Tailieu-mobile/">Quản lý tài liệu trên điện thoại</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Ký số</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../esign/introduction/">Giới thiệu về ứng dụng Ký số</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../esign/initialization/">Thiết lập và khai báo ban đầu</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../esign/esign/">Ký số</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Digital workplace</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Gioi-thieu-digital-workplace/">Giới thiệu về phân hệ Digital workplace</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/dw-initialization/">Thiết lập và khai báo ban đầu</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Thuat-ngu-viet-tat/">Các thuật ngữ và từ viết tắt</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-Website/">Trang web</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-Social/">Mạng xã hội</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-project/">Dự án</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-khao-sat/">Khảo sát</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-ghi-chu/">Ghi chú</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-timesheet/">Timesheet</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-su-kien/">Sự kiện</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-bua-an/">Bữa ăn</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-PheDuyet-Web/">Phê duyệt trên web</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-meeting/">Cuộc họp trực tuyến</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-KPI/">Chỉ số đo lường KPI</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Addon-OKR/">Chỉ số đo lường OKR</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../digitalworkplace/Lich-su-phat-trien/">Lịch sử phát triển sản phẩm</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">vESS Mobile</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Gioi-thieu-vess-mobile/">Giới thiệu về vESS mobile</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Mobile-initialization/">Thiết lập và khai báo ban đầu</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Thuat-ngu-viet-tat/">Các thuật ngữ và từ viết tắt</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Mobile-dang-nhap/">Đăng nhập</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Addon-phe-duyet/">Phê duyệt trên mobile</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Addon-ky-so/">Ký số</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Addon_BuaAn/">Bữa ăn</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Addon_DuAn/">Dự án</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Addon_Lich/">Lịch</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../vESS_mobile/Mobile-Lich-su-phat-trien/">Lịch sử phát triển sản phẩm</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">vContract - Hợp đồng điện tử</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../vContract/thiet-lap-luong-ky/">Thiết lập luồng ký hợp đồng</a>
+                  </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../release-notes/">Release Notes</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../..">Hướng dẫn sử dụng hệ thống vESS</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../.." class="icon icon-home" alt="Docs"></a> &raquo;</li>
+          <li>Tài liệu &raquo;</li>
+      <li>Thiết lập và khai báo ban đầu</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h2 id="thiet-lap-va-khai-bao-du-lieu-ban-au">Thiết lập và khai báo dữ liệu ban đầu</h2>
+<p>Việc thiết lập và khai báo ban đầu được thực hiện khi lần đầu cài đặt ứng dụng, giúp khởi tạo dữ liệu và bắt đầu cho việc sử dụng. </p>
+<h3 id="tao-va-thiet-lap-phan-quyen-cho-nguoi-dung">Tạo và thiết lập phân quyền cho người dùng</h3>
+<p>Để đăng nhập và sử dụng được ứng dụng Tài liệu, người dùng cần được cấp phân quyền cho ứng dụng. </p>
+<p><strong>Đối tượng thực hiện</strong>: Quản trị viên</p>
+<p><strong>Các bước thực hiện</strong>:</p>
+<ol>
+<li>
+<p>Chọn <strong>Thiết lập</strong> &gt; Chọn <strong>Người dùng</strong></p>
+</li>
+<li>
+<p>Kích <strong>Tạo</strong> để tạo mới người dùng hoặc chọn sửa thông tin một người dùng trên danh sách</p>
+</li>
+<li>Thiết lập quyền với ứng dụng Tài liệu:</li>
+<li>Tại trường Tài liệu: chọn quyền tương ứng của người dùng đối với ứng dụng tài liệu. </li>
+<li>Với ứng dụng Tài liệu, cung cấp 4 mức độ quyền sử dụng như sau: <ul>
+<li>Người dùng thường: có quyền xem/đọc các tài liệu thuộc thư mục được gán quyền.</li>
+<li>Người dùng cấp 1: Với thư mục được gán quyền ghi, người dùng có thể tạo mới/ cập nhật tài liệu do chính mình tạo. </li>
+<li>Người dùng cấp 2: Với thư mục được gán quyền ghi, người dùng có thể tạo mới/ cập nhật tài liệu do chính mình tạo và cập nhật tài liệu của người khác. </li>
+<li>Người quản trị: có toàn quyền với tài liệu trong thư mục được gán quyền quản trị. </li>
+</ul>
+</li>
+<li>Kích <strong>Lưu</strong> </li>
+</ol>
+<h3 id="tao-thu-muc-luu-tru">Tạo thư mục lưu trữ</h3>
+<p>Trước khi sử dụng hệ thống để lưu trữ, quản lý và khai thác tài liệu, đơn vị nên xây dựng quy hoạch cấu trúc thư mục lưu trữ  một cách khoa học và hiệu quả, đồng thời phân quyền sử dụng tài liệu thuộc thư mục cho người dùng.  </p>
+<p>Ngay khi cài đặt ứng dụng Tài liệu, hệ thống có thiết lập mẫu sẵn có một số thư mục để đơn vị tham khảo. Trong trường hợp không muốn sử dụng các thiết lập mặc định của hệ thống, người dùng có thể xóa hoặc chỉnh sửa  hoặc bổ sung cho phù hợp. </p>
+<p><strong>Đối tượng thực hiện</strong>: Quản trị viên</p>
+<p><strong>Các bước thực hiện</strong>:</p>
+<ol>
+<li>Vào <strong>Cấu hình</strong> &gt; Chọn <strong>Thư mục</strong> </li>
+</ol>
+<p><img alt="Graphical user interface, application  Description automatically generated" src="../images/clip_image008.jpg" /> </p>
+<ol>
+<li>Kích <strong>Tạo</strong></li>
+</ol>
+<p><img alt="image-20211013010534462" src="../images/image-20211013010534462.png" /></p>
+<ol>
+<li>
+<p>Nhập thông tin khai báo cho thư mục</p>
+</li>
+<li>
+<p>Tên thư mục là bắt buộc nhập. </p>
+</li>
+<li>
+<p>Chọn thư mục cha nếu có </p>
+</li>
+<li>
+<p>Khai báo nhanh <strong>nhãn</strong> sử dụng trong thư mục</p>
+</li>
+<li>
+<p>Tại tab Nhãn: kích nút <strong>Thêm mới dòng</strong>. </p>
+<p><img alt="image-20211013005938456" src="../images/image-20211013005938456.png" /></p>
+</li>
+<li>
+<p>Khai báo thông tin <strong>nhãn</strong> thuộc thư mục như danh mục nhãn, tên nhãn</p>
+</li>
+<li>
+<p>Các nhãn được khai báo thành công ở đây đều được quản lý trong <strong>Danh mục nhãn</strong></p>
+</li>
+<li>
+<p>Phân quyền cho thư mục </p>
+</li>
+</ol>
+<p><img alt="image-20v211013010335493" src="../images/image-20211013010335493.png" /></p>
+<ul>
+<li>
+<p>Tại tab Phân quyền: khai báo các nhóm người dùng có quyền đọc/ ghi với tài liệu thuộc thư mục</p>
+<ul>
+<li>Quyền ghi: cho phép người dùng thuộc nhóm này có quyền tạo mới/ cập nhật với tài liệu trong thư mục</li>
+<li>Quyền đọc: Người dùng thuộc nhóm này chỉ có quyền đọc/xem với tài liệu trong thư muc.  </li>
+<li>Tích chọn <strong>Chỉ cho phép với người sở hữu tài liệu</strong>: khi muốn giới hạn chỉ đọc tài liệu của chính mình.</li>
+</ul>
+</li>
+<li>
+<p>Sau khi nhập xong thông tin thư mục, kích <strong>Lưu</strong> </p>
+</li>
+</ul>
+<h3 id="tao-va-quan-ly-nhan">Tạo và quản lý nhãn</h3>
+<p>Cho phép tạo mới và quản lý các nhãn trên hệ thống dùng để phân loại và lọc tài liệu nhanh chóng. </p>
+<p><strong>Đối tượng thực hiện</strong>: Quản trị viên</p>
+<p><strong>Các bước thực hiện</strong>:</p>
+<ol>
+<li>Vào <strong>Cấu hình</strong> &gt; Chọn <strong>Nhãn</strong></li>
+</ol>
+<p><img alt="Graphical user interface, application  Description automatically generated" src="../images/clip_image020.jpg" /></p>
+<ol>
+<li>
+<p>Kích <strong>Tạo</strong></p>
+</li>
+<li>
+<p>Danh mục nhãn: dùng để nhóm các nhãn có liên quan. Một danh mục nhãn có thể có 1 hoặc nhiều nhãn. </p>
+<p>​                                                      <img alt="" src="../images/clip_image022.jpg" />         </p>
+</li>
+<li>
+<p>Click button <strong>Lưu</strong></p>
+</li>
+</ol>
+<p>Lưu thông tin Nhãn vừa tạo vào hệ thống và hiển thị nhãn vừa tạo ra danh sách nhãn</p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../abbreviations/" class="btn btn-neutral float-left" title="Các thuật ngữ và từ viết tắt"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../document/" class="btn btn-neutral float-right" title="Tài liệu">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+      <p>Prepared by <a href="https://vess.vn/">vESS Team - Viettel Group.</a></p>
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../abbreviations/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../document/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme_extra.js" defer></script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="../../js/extra.js" defer></script>
+      <script src="../../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>

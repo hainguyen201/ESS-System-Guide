@@ -456,28 +456,28 @@ Thông tin chi tiết của Phiếu chi thanh toán lương
 
 - Chọn **Tiền mặt**, chọn **Dự báo dòng tiền**: Nếu muốn theo dõi dòng **Tiền mặt**
 
-  ![](C:\Users\TuNK\ESS-System-Guide\docs\finance\images\fin_tienmat_Dubaodongtien_01.png)
+  ![](images/fin_tienmat_Dubaodongtien_01.png)
 
 - Chọn **Tiền gửi**, chọn **Dự báo dòng tiền**: Nếu muốn thoe dõi dòng **Tiền gửi ngân hàng** 
 
-![](C:\Users\TuNK\ESS-System-Guide\docs\finance\images\fin_tiengui_Dubaodongtien_01.png)
+![](images/fin_tiengui_Dubaodongtien_01.png)
 
 **Bước 2**: Hệ thống hiển thị màn hình danh sách các bản ghi dự bảo dòng tiền:
 
-![](C:\Users\TuNK\ESS-System-Guide\docs\finance\images\fin_tienmat_Dubaodongtien_02.png)
+![](images/fin_tienmat_Dubaodongtien_02.png)
 
 **Bước 3:**  Nhấn **Tạo** để thêm bản ghi
 
-![](C:\Users\TuNK\ESS-System-Guide\docs\finance\images\fin_tienmat_Dubaodongtien_tao.png)
+![](images/fin_tienmat_Dubaodongtien_tao.png)
 
 **Bước 2:** Khai báo các thông tin tab chung 
 
 - Tại mục **Đơn vị**: Thực hiện chọn **Đơn vị** để theo dõi dòng tiền
 - Tại mục **Đến ngày**: Chọn ngày.
 
-![](C:\Users\TuNK\ESS-System-Guide\docs\finance\images\fin_tienmat_Dubaodongtien_03.png)
+![](images/fin_tienmat_Dubaodongtien_03.png)
 
 Tab Chi tiết: Hệ thống sẽ tự lấy lên các dòng liệt kê đủ các thông tin Thu Chi dự kiến trong tương lại đến thời điểm được chọn tại trường **Đến ngày** 
 
-![](C:\Users\TuNK\ESS-System-Guide\docs\finance\images\fin_tienmat_Dubaodongtien_04.png)
+![](images/fin_tienmat_Dubaodongtien_04.png)
 

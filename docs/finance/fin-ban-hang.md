@@ -18,8 +18,6 @@ Phân hệ **Bán hàng** quản lý toàn bộ quy trình bán hàng từ bư�
 
 ·     Tạo chứng từ bán hàng. Chi tiết thao tác chức năng **[tại đây](#hoa-on-ban-hang)**
 
-·     Tạo chứng từ bán hàng - Giảm thuế 20%. Chi tiết thao tác chức năng **[tại đây](#hoa-on-ban-hang-giam-thue-20)**
-
 ·     Xuất kho từ chứng từ bán hàng. Chi tiết thao tác chức năng [**tại đây**](#xuat-kho-on-ban-hang)
 
 ·     Ghi nhận thanh toán từ khách hàng. Chi tiết thao tác chức năng **[tại đây](ghi-nhan-thanh-toan-tu-khach-hang)**

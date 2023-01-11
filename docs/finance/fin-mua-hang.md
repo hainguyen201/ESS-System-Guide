@@ -473,7 +473,7 @@ Cách 2: Lập hóa đơn mua hàng không từ đơn mua hàng. Chi tiết nghi
 
 Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống
 
-![](images/fin_muahang_hdmh_timkiem.png)
+![](images/fin_muahang_hdmh_timkiem00.png)
 
 ![](images/fin_muahang_hdmh_ds00.png)
 

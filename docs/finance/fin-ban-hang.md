@@ -196,7 +196,7 @@ Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm ki
 
 ![](images/fin_banhang_vaochucnang_nhanh.png)
 
-![](images/fin_banhang_danhsach.png)
+![](images/fin_banhang_danhsach00.png)
 
 **Bước 2:** Nhấn nút **Tạo** ![](images/fin_banhang_taomoi.png)trên chức năng để thực hiện thêm một đơn hàng mới. Khai báo các thông tin chi tiết trên đơn bán hàng. 
 
@@ -441,7 +441,7 @@ Nếu như đủ hàng còn tồn trong kho, hệ thống sẽ xác nhận thàn
 
 Hoặc thực hiện **Tìm kiếm** trực tiếp chức năng trên ô tìm kiếm chung của hệ thống
 
-![](images/fin_banhang_hoadon_timkiemnhanh.png)
+![](images/fin_banhang_hoadon_timkiemnhanh00.png)
 
 ![](images/fin_banhang_hoadon_viewdanhsach00.png)
 
@@ -632,7 +632,7 @@ Tại chứng từ trả hàng, khi người dùng nhấn **Đưa về dự th�
 
 Bước 1: Vào phân hệ **Bán hàng**, chọn **Hóa đơn**, chọn **Hóa đơn bán hàng**. Trên danh sách hóa đơn bán hàng, kế toán tìm tới hóa đơn có nhu cầu hoàn hàng, nhấn chọn tiện ích/chuyển đổi thành khoản hoàn tiền/công nợ giảm
 
-![](images/fin_BanHang_HoaDon_ButtonChuyenDoi.png)
+![](images/fin_BanHang_HoaDon_ButtonChuyenDoi00.png)
 
 Hệ thống chuyển đổi từ hóa đơn bán hàng thành hóa đơn giảm giá/trả hàng, các thông tin được giữ nguyên
 

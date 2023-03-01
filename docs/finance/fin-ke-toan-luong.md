@@ -33,7 +33,7 @@
 
 ***Bước 1:*** Nhân viên quản trị nhân lực Vào **Tiền lương > Nhân viên>Tạo**
 
-![](images\Ảnh kế toán lương\fin_tienluong_nhanvien01.png)
+![](Ảnh kế toán lương\fin_tienluong_nhanvien01.png)
 
 ***Bước 2:*** Thực hiện khai báo thông tin của nhân viên:
 
@@ -43,7 +43,7 @@
 
 - Khai báo các thông tin về Phụ cấp, Thông tin BHXH (nếu có)
 
-![](images\Ảnh kế toán lương\fin_tienluong_nhanvien02.png)
+<img src="Ảnh kế toán lương\fin_tienluong_nhanvien02.png" style="zoom:85%;" />
 
 ### Tạo quá trình làm việc
 
@@ -69,7 +69,7 @@
 
 ·     Nghỉ tạm hoãn hợp đồng: Nhân viên nhân sự không được phép thay đổi thông tin trong hợp đồng
 
-![](images\Ảnh kế toán lương\fin_tienluong_nhanvien03.png)
+<img src="Ảnh kế toán lương\fin_tienluong_nhanvien03.png" style="zoom:85%;" />
 
 ### Nhập dữ liệu từ excel
 
@@ -83,23 +83,23 @@ Trong trường hợp người dùng muốn thực hiện nhập nhiều nhân v
 
 ***Bước 1:*** Vào menu Tiền lương >> Yêu thích >> Thêm bản ghi!
 
-![img](images\Ảnh kế toán lương\fin_tienluong_nhanvien04.png)
+![img](Ảnh kế toán lương\fin_tienluong_nhanvien04.png)
 
 ***Bước 2:***
 
 - Tại đây, người dùng bấm "Tải biểu mẫu danh sách nhân viên" để tải xuống file mẫu nhập dữ liệu 
 
-  ![](images\Ảnh kế toán lương\fin_tienluong_nhanvien05.png)
+  ![](Ảnh kế toán lương\fin_tienluong_nhanvien05.png)
 
 - Người dùng nhập dữ liệu thông tin nhân viên vào file excel.
 
-  ![](images\Ảnh kế toán lương\fin_tienluong_nhanvien06.png)
+  ![](Ảnh kế toán lương\fin_tienluong_nhanvien06.png)
 
-***Bước 3:*** Trên giao diện phần mềm, người dùng bấm nút ![](fin_tienluong_naptaptin_btn.png) >> hệ thống hiển thị màn hình như sau ![](images\Ảnh kế toán lương\fin_tienluong_nhanvien07.png)
+***Bước 3:*** Trên giao diện phần mềm, người dùng bấm nút ![](fin_tienluong_naptaptin_btn.png) >> hệ thống hiển thị màn hình như sau ![](Ảnh kế toán lương\fin_tienluong_nhanvien07.png)
 
- Tại đây người dùng kiểm tra thông tin dữ liệu, và bấm nút ![](images\Ảnh kế toán lương\fin_tienluong_kiemthu_btn.png)để hệ thống kiểm tra dữ liệu trước khi nhập >> Hệ thống tự động kiểm tra và thông báo kết quả lỗi dữ liệu lên màn hình >> Người dùng đọc thông báo và điều chỉnh dữ liệu trên file excel để chính xác, sau đó bấm ![](images\Ảnh kế toán lương\fin_tienluong_naptaptin_btn.png)) để tải lại file sau khi chỉnh sửa dữ liệu >> Tiếp tục bấm **Kiểm thử** để kiểm tra cho đến khi kết quả hệ thống kiểm tra thông báo là ![](images\Ảnh kế toán lương\fin_tienluong_tbaohople.png)
+ Tại đây người dùng kiểm tra thông tin dữ liệu, và bấm nút <img src="Ảnh kế toán lương\fin_tienluong_kiemthu_btn.png" style="zoom:75%;" />để hệ thống kiểm tra dữ liệu trước khi nhập >> Hệ thống tự động kiểm tra và thông báo kết quả lỗi dữ liệu lên màn hình >> Người dùng đọc thông báo và điều chỉnh dữ liệu trên file excel để chính xác, sau đó bấm <img src="Ảnh kế toán lương\fin_tienluong_naptaptin_btn.png" style="zoom:75%;" />) để tải lại file sau khi chỉnh sửa dữ liệu >> Tiếp tục bấm **Kiểm thử** để kiểm tra cho đến khi kết quả hệ thống kiểm tra thông báo là <img src="Ảnh kế toán lương\fin_tienluong_tbaohople.png" style="zoom:75%;" />
 
-***Bước 4:*** Người dùng bấm nút ![](images\Ảnh kế toán lương\fin_tienluong_nhap_btn.png) để thực hiện nạp dữ liệu vào hệ thống >> Hệ thống ghi nhận dữ liệu và hiển thị thông báo Thêm bản ghi thành công.
+***Bước 4:*** Người dùng bấm nút <img src="Ảnh kế toán lương\fin_tienluong_nhap_btn.png" style="zoom:75%;" /> để thực hiện nạp dữ liệu vào hệ thống >> Hệ thống ghi nhận dữ liệu và hiển thị thông báo Thêm bản ghi thành công.
 
 ***Các lỗi thường gặp và cách xử lý:***
 
@@ -109,14 +109,14 @@ Trong trường hợp người dùng muốn thực hiện nhập nhiều nhân v
 
    - Cách xử lý: Nhập đầy đủ thông tin cho các trường
 
-     ![](images\Ảnh kế toán lương\fin_tienluong_nhanvien08.png)
+     ![](Ảnh kế toán lương\fin_tienluong_nhanvien08.png)
 
 2. ***Mã nhân viên không tồn tại:***
 
    - Nguyên nhân: Mã nhân viên đã tồn tại trong hệ thống.
    - Cách xử lý: Mã nhân viên là duy nhất, kiểm tra và nhập lại mã chưa có trong hệ thống
 
-   ![](images\Ảnh kế toán lương\fin_tienluong_nhanvien09.png)
+   ![](Ảnh kế toán lương\fin_tienluong_nhanvien09.png)
 
 3. ***Nhập hộ khẩu thường trú không hợp lệ:***
 
@@ -124,7 +124,7 @@ Trong trường hợp người dùng muốn thực hiện nhập nhiều nhân v
 
    - Cách xử lý: Nhập đầy đủ đơn vị hành chính: Hà Nội, Quận Đống Đa,  P.Dịch Vọng Hậu. Nên tải file dữ liệu mẫu đơn vị hành chính từ hệ thống về để nhập dữ liệu chính xác 
 
-     ![](images\Ảnh kế toán lương\fin_tienluong_nhanvien10.png)
+     ![](Ảnh kế toán lương\fin_tienluong_nhanvien10.png)
 
 4. ***Trường ngày tháng không đúng định dạng:***
 
@@ -132,7 +132,7 @@ Trong trường hợp người dùng muốn thực hiện nhập nhiều nhân v
 
    - Cách xử lý: Nhập đúng ngày, đúng định dạng
 
-     ![](images\Ảnh kế toán lương\fin_tienluong_nhanvien11.png)
+     ![](Ảnh kế toán lương\fin_tienluong_nhanvien11.png)
 
 **Nhập dữ liệu quá trình trong hồ sơ của nhân viên** 
 
@@ -148,31 +148,31 @@ Cán bộ Quản lý Nhân sự, (tức là người dùng được phân quyề
 
 ***Bước 1:*** Người dùng truy cập vào menu Tiền lương : Màn hình hiển thị Danh sách Nhân viên.
 
-![img](images\Ảnh kế toán lương\fin_tienluong_nhanvien01.png)
+![img](Ảnh kế toán lương\fin_tienluong_nhanvien01.png)
 
 ***Bước 2:*** Vào mục Yêu thích > Chọn mục **Import dữ liệu thông tin nhân viên**
 
-![img](images\Ảnh kế toán lương\fin_tienluong_nhanvien12.png)
+![img](Ảnh kế toán lương\fin_tienluong_nhanvien12.png)
 
 ***Bước 3***: Hoàn thành thông tin cần nhập liệu
 
-- *Tải file mẫu:* Người dùng thực hiện tải file mẫu bằng cách bấm vào dòng chữ "Mẫu nhập cho thông tin nhân viên"![](images\Ảnh kế toán lương\fin_tienluong_nhanvien13.png)
+- *Tải file mẫu:* Người dùng thực hiện tải file mẫu bằng cách bấm vào dòng chữ "Mẫu nhập cho thông tin nhân viên"![](Ảnh kế toán lương\fin_tienluong_nhanvien13.png)
 
 * *Hoàn thiện dữ liệu cần nhập:* Người dùng thực hiện điền dữ liệu vào file theo mẫu vừa tải về (nhập đúng trang tính và đầy đủ thông tin theo cột). Lưu lại thông tin đã nhập.
 
-![](images\Ảnh kế toán lương\fin_tienluong_nhanvien14.png)
+![](Ảnh kế toán lương\fin_tienluong_nhanvien14.png)
 
 ***Bước 4:*** Trên màn hình hệ thống, nhấn vào Nạp tập tin ![](images\Ảnh kế toán lương\fin_tienluong_naptaptin_btn.png) và tải lên tập tin vừa lưu
 
 - Lựa chọn trang dữ liệu cần import: Biểu mẫu tải về chứa nhiều trang thông tin, người dùng có thể nhập một trong các trang dữ liệu đó và chọn đúng trang tính cần nhập dữ liệu để tải lên
 
-  ![](![](images\Ảnh kế toán lương\fin_tienluong_nhanvien15.png)
+  ![](Ảnh kế toán lương\fin_tienluong_nhanvien15.png)
 
 - Kiểm tra việc gắn dữ liệu theo cột trên file excel với các cột dữ liệu trên hệ thống
 
-- Sau đó, bấm nút ![](images\Ảnh kế toán lương\fin_tienluong_kiemthu_btn.png) để hệ thống kiểm tra dữ liệu trước khi nhập >> Hệ thống tự động kiểm tra và thông báo kết quả lỗi dữ liệu lên màn hình >> Người dùng đọc thông báo và điều chỉnh dữ liệu trên file excel để chính xác, sau đó bấm ![](images\Ảnh kế toán lương\fin_tienluong_naptaptin_btn.png) để tải lại file sau khi chỉnh sửa dữ liệu >> Tiếp tục bấm **Kiểm thử** để kiểm tra cho đến khi kết quả hệ thống kiểm tra thông báo là ![](images\Ảnh kế toán lương\fin_tienluong_tbaohople.png)
+- Sau đó, bấm nút <img src="Ảnh kế toán lương\fin_tienluong_kiemthu_btn.png" style="zoom:75%;" /> để hệ thống kiểm tra dữ liệu trước khi nhập >> Hệ thống tự động kiểm tra và thông báo kết quả lỗi dữ liệu lên màn hình >> Người dùng đọc thông báo và điều chỉnh dữ liệu trên file excel để chính xác, sau đó bấm ![](Ảnh kế toán lương\fin_tienluong_naptaptin_btn.png) để tải lại file sau khi chỉnh sửa dữ liệu >> Tiếp tục bấm **Kiểm thử** để kiểm tra cho đến khi kết quả hệ thống kiểm tra thông báo là <img src="Ảnh kế toán lương\fin_tienluong_tbaohople.png" style="zoom:75%;" />
 
-- Người dùng bấm vào nút ![](images\Ảnh kế toán lương\fin_tienluong_nhap_btn.png) để tải lên dữ liệu. Hệ thống sẽ hiển thị thông báo Thêm bản ghi thành công sau khi hoàn tất nạp dữ liệu.
+- Người dùng bấm vào nút <img src="Ảnh kế toán lương\fin_tienluong_nhap_btn.png" style="zoom:75%;" /> để tải lên dữ liệu. Hệ thống sẽ hiển thị thông báo Thêm bản ghi thành công sau khi hoàn tất nạp dữ liệu.
 
 **Các lỗi thường gặp và cách xử lý:**
 
@@ -182,14 +182,14 @@ Cán bộ Quản lý Nhân sự, (tức là người dùng được phân quyề
 
    - Cách xử lý: Chọn đúng trang tính đã nhập thông tin và cần nhập dữ liệu
 
-     ![](images\Ảnh kế toán lương\fin_tienluong_nhanvien16.png)
+     ![](Ảnh kế toán lương\fin_tienluong_nhanvien16.png)
 
 2. ***Mã nhân viên không tồn tại:***
 
    - Nguyên nhân: Mã nhân viên chưa có trong hệ thống, nhập sai mã nhân viên.
    - Cách xử lý: Kiểm tra lại mã nhân viên, sửa lại trong file và nạp lại tập tin
 
-   ![](images\Ảnh kế toán lương\fin_tienluong_nhanvien17.png)
+   ![](Ảnh kế toán lương\fin_tienluong_nhanvien17.png)
 
 3. ***Không phải số tự nhiên* đối với trường Tỷ lệ hưởng lương:***
 
@@ -197,7 +197,7 @@ Cán bộ Quản lý Nhân sự, (tức là người dùng được phân quyề
 
    - Cách xử lý: Chỉ nhập số tự nhiên, không thêm các kí tự đặc biệt khác
 
-     ![](images\Ảnh kế toán lương\fin_tienluong_nhanvien18.png)
+     ![](Ảnh kế toán lương\fin_tienluong_nhanvien18.png)
 
 ## *Chấm công - Đăng ký công*
 
@@ -213,7 +213,7 @@ Hiện tại, khi người dùng cài đặt thành công phân hệ Chấm côn
 
 - Vào menu **Chấm công** >> Chọn **Ký hiệu công**. Hệ thống hiển thị màn hình sau
 
-![](images\Ảnh kế toán lương\fin_tienluong_chamcong01.png)
+![](Ảnh kế toán lương\fin_tienluong_chamcong01.png)
 
 ***Lưu ý***: *Các dữ liệu có sẵn này không được phép xoá. Người dùng có thể tạo thêm ký hiệu công mới bằng cách bấm Tạo và nhập dữ liệu phù hợp, sau đó thực hiện Lưu.*
 
@@ -225,11 +225,11 @@ Hiện tại, khi người dùng cài đặt thành công phân hệ Chấm côn
 
 **Thực hiện trên hệ thống:** Người dùng vào menu **Đăng ký công** >> Chọn **Loại đăng ký**. Hệ thống hiển thị màn hình sau
 
-![](images\Ảnh kế toán lương\fin_tienluong_loaidangkycong.png)
+![](Ảnh kế toán lương\fin_tienluong_loaidangkycong.png)
 
 Ngay khi người dùng cài đặt thành công phân hệ "Đăng ký công", hệ thống tự động tạo sẵn bộ dữ liệu các loại đăng ký với bộ ký hiệu công khởi tạo. Người dùng có thể thêm loại đăng ký mới bằng cách bấm nút **Tạo**, nhập các thông tin yêu cầu, bấm **Lưu** để hoàn tất.
 
-![](images\Ảnh kế toán lương\fin_tienluong_loaidangkycong01.png)
+![](Ảnh kế toán lương\fin_tienluong_loaidangkycong01.png)
 
 **Lưu ý 1 :** ***Các thông tin cần nhập***
 
@@ -253,11 +253,11 @@ Ngay khi người dùng cài đặt thành công phân hệ "Đăng ký công", 
 
 ##### Chấm công nhanh
 
-Hằng ngày, hệ thống sẽ tự động đồng bộ và chấm công cho nhân viên dựa dựa theo hình thức chấm công đã được thiết lập ở bước [này](https://guide.vess.vn/hrm/attendance/#Thiết lập hình thức chấm công) và các dữ liệu lịch sử vào/ra, lịch sử đăng ký công nghỉ, công làm thêm của nhân viên đã được duyệt. Thông tin chấm công sẽ hiển thị lên bảng công cho tất cả nhân viên.
+Hằng ngày, hệ thống sẽ tự động đồng bộ và chấm công cho nhân viên dựa dựa theo hình thức chấm công đã được thiết lập ở bước [này](#Thiết lập hình thức chấm công) và các dữ liệu lịch sử vào/ra, lịch sử đăng ký công nghỉ, công làm thêm của nhân viên đã được duyệt. Thông tin chấm công sẽ hiển thị lên bảng công cho tất cả nhân viên.
 
 Người dùng xem bảng tổng hợp công trên hệ thống bằng cách vào menu **Chấm công** >> Chọn **Tổng hợp công** >> Hệ thống hiển thị dữ liệu chấm công của tất cả nhân viên tại tháng hiện tại như hình sau:
 
-![](images\Ảnh kế toán lương\fin_tienluong_tonghopcong01.png)
+![](Ảnh kế toán lương\fin_tienluong_tonghopcong01.png)
 
 ***Lưu ý:***
 
@@ -270,7 +270,7 @@ Người dùng xem bảng tổng hợp công trên hệ thống bằng cách và
 
 Vào menu **Chấm công** >> Chọn **Tổng hợp công** >> Màn hình hiển thị bảng tổng hợp công. Cán bộ chấm công có thể sửa, hoặc thêm mới công cho nhân viên bằng cách click đúp vào ô công của nhân viên, màn hình hiện ra như sau:
 
-![](images\Ảnh kế toán lương\fin_tienluong_tonghopcong02.png)
+![](Ảnh kế toán lương\fin_tienluong_tonghopcong02.png)
 
 Cán bộ chấm công thực hiện nhập/ sửa công vào ô **Thời gian làm** theo quy tắc: **[Ký hiệu công 1]:[Số giờ công]; [Ký hiệu công 2]: [Số giờ công]** và bấm **Lưu & Đóng**
 
@@ -278,11 +278,11 @@ Trong trường hợp muốn xoá công của nhân viên, cán bộ chấm côn
 
 Ví dụ: CB chấm công chấm cho đ/c Trần Bảo Châu đi làm thêm giờ (Ký hiệu: OT), cả ngày 14/05/2022 (8 tiếng). CB chấm công nhập OT:8, cụ thể:
 
-![](images\Ảnh kế toán lương\fin_tienluong_tonghopcong03.png)
+![](Ảnh kế toán lương\fin_tienluong_tonghopcong03.png)
 
 Sau khi bấm **Lưu & Đóng**, màn hình sẽ hiển thị DS như dưới và ghi nhận thành công.
 
-![](images\Ảnh kế toán lương\fin_tienluong_tonghopcong04.png)
+![](Ảnh kế toán lương\fin_tienluong_tonghopcong04.png)
 
 ##### Import công từ file excel
 
@@ -294,7 +294,7 @@ Sau khi bấm **Lưu & Đóng**, màn hình sẽ hiển thị DS như dưới v�
 
 Trên màn hình tổng hợp công, người dùng bấm vào nút **Nhập dữ liệu** để mở ra hộp thoại import công >> Bấm **Xuất biểu mẫu** để tải file mẫu dữ liệu chấm công
 
-![](images\Ảnh kế toán lương\fin_tienluong_tonghopcong05.png)
+![](Ảnh kế toán lương\fin_tienluong_tonghopcong05.png)
 
 ***Bước 2***: Nhập dữ liệu vào file excel
 
@@ -302,7 +302,7 @@ Người dùng thực hiện nhập liệu công vào file excel theo mẫu vừ
 
 Lưu ý: Bắt buộc nhập Tháng, Năm, Mã nhân viên và dữ liệu chấm công. Dữ liệu công nhập theo quy tắc: **[Ký hiệu công]:[Số giờ công]**
 
-![](images\Ảnh kế toán lương\fin_tienluong_tonghopcong06.png)
+![](Ảnh kế toán lương\fin_tienluong_tonghopcong06.png)
 
 ***Bước 3***: Nhập file lên hệ thống
 
@@ -310,7 +310,7 @@ Trên màn hình ở bước 1, người dùng bấm **Tải lên tập tin củ
 
 - Nếu có lỗi: Hệ thống hiển thị màn hình thông báo lỗi như minh hoạ
 
-![](images\Ảnh kế toán lương\fin_tienluong_tonghopcong07.png)
+![](Ảnh kế toán lương\fin_tienluong_tonghopcong07.png)
 
 - Nếu không có lỗi: Hệ thống thực hiện import, và tự tải lại trang màn hình tổng hợp công sau khi đã ghi nhận dữ liệu trên file excel
 - Người dùng bắt buộc nhập mã nhân viên (dạng text), nhập dữ liệu chấm công; tên nhân viên không bắt buộc nhập.
@@ -331,9 +331,9 @@ Trên màn hình ở bước 1, người dùng bấm **Tải lên tập tin củ
 
      Xem lịch làm việc của nhân viên: Vào menu **Nhân viên**, bấm xem chi tiết 1 nhân viên, tab **Thông tin công việc**, trường **Giờ làm việc**
 
-     ![](images\Ảnh kế toán lương\fin_tienluong_tonghopcong08.png)
+     ![](Ảnh kế toán lương\fin_tienluong_tonghopcong08.png)
 
-     ![](images\Ảnh kế toán lương\fin_tienluong_tonghopcong09.png)
+     ![](Ảnh kế toán lương\fin_tienluong_tonghopcong09.png)
 
    - Ví dụ ngày thứ 2, theo lịch làm việc, tổng số giờ làm chuẩn là 8h. Nếu người dùng nhập dữ liệu chấm công ngày thứ 2 cho nhân viên có tổng công nghỉ có lương + nghỉ không lương + chấm công vượt quá 8h thì hệ thống cảnh báo. Người dùng thực hiện điều chỉnh dữ liệu chấm công hoặc điều chỉnh giờ làm việc phù hợp.
 
@@ -357,7 +357,7 @@ Chức năng này phục vụ cho các công ty, đơn vị có nhiều ca làm 
 
 ·     Nhân viên có hình thức làm việc theo ca thì người dùng mới có thể phân ca cho nhân viên đó. Hình thức làm việc của nhân viên được thiết lập trong mục **Người quản lý** >> **Nhân viên** >> **Thông tin công việc** >> **Lịch làm việc** >> **Hình thức làm việc**
 
-![](images\Ảnh kế toán lương\fin_tienluong_thietlapphanca.png)
+![](Ảnh kế toán lương\fin_tienluong_thietlapphanca.png)
 
 #### Thiết lập ký hiệu công
 
@@ -367,37 +367,37 @@ Kí hiệu công là kí hiệu hiển thị trong bảng tổng hợp công, qu
 
 ***Bước 1:*** Người dùng truy cập vào ứng dụng **Chấm công** > Chọn **Ký hiệu công**: Hiển thị danh sách kí hiệu công > Nhấn nút **Tạo**
 
-![](images\Ảnh kế toán lương\fin_tienluong_thietlapkyhieucong01.png)
+![](Ảnh kế toán lương\fin_tienluong_thietlapkyhieucong01.png)
 
 ***Bước 2:*** Nhập tên công, mã công, loại công > Nhấn **Lưu**
 
-![](images\Ảnh kế toán lương\fin_tienluong_thietlapkyhieucong02.png)
+![](Ảnh kế toán lương\fin_tienluong_thietlapkyhieucong02.png)
 
 #### Thiết lập ca làm việc
 
 ***Bước 1:*** Người dùng truy cập vào ứng dụng **Chấm công** > Chọn  **Ca làm việc**: Hiển thị danh sách ca làm việc > Nhấn nút **Tạo**
 
-![](images\Ảnh kế toán lương\fin_tienluong_thietlapcalamviec01.png)
+![](Ảnh kế toán lương\fin_tienluong_thietlapcalamviec01.png)
 
 ***Bước 2:*** Điền đầy đủ thông tin vào các trường bắt buộc > Nhấn **Lưu**
 
-![](images\Ảnh kế toán lương\fin_tienluong_thietlapcalamviec02.png)
+![](Ảnh kế toán lương\fin_tienluong_thietlapcalamviec02.png)
 
 Tại màn hình Danh sách ca làm việc, thêm mới một bản ghi Ca làm việc vừa tạo
 
 **Lưu ý:** *Các ca làm việc khác nhau, nhưng cùng tính chất thì người dùng có thể thiết lập chung 1 ký hiệu công*
 
-![](images\Ảnh kế toán lương\fin_tienluong_thietlapcalamviec03.png)
+![](Ảnh kế toán lương\fin_tienluong_thietlapcalamviec03.png)
 
 *Tuỳ vào mục đích người sử dụng muốn hiển thị lên bảng tổng hợp chấm công là ký hiệu công gì, tương ứng với ca làm việc nào, thì người dùng chọn Ký hiệu công tương ứng tại trường "Ký hiệu". Ví dụ, nếu muốn nhân viên đi làm "Ca 3" khi hiển thị lên bảng tổng hợp công với ký hiệu công là "Tăng ca 3 (TC3)" thì thực hiện thiết lập như sau*:
 
 - Thiết lập kí hiệu công với tên: ***Tăng ca 3\***, mã: ***TC3\***, loại công: ***Chấm công\***.
 
-![](images\Ảnh kế toán lương\fin_tienluong_thietlapcalamviec04.png)
+![](Ảnh kế toán lương\fin_tienluong_thietlapcalamviec04.png)
 
 - Thiết lập ca làm việc với tên: ***Ca 3\***, mã: ***TC3\***, kí hiệu: ***TC3\***
 
-![](images\Ảnh kế toán lương\fin_tienluong_thietlapcalamviec05.png)
+![](Ảnh kế toán lương\fin_tienluong_thietlapcalamviec05.png)
 
 *Sau đó thực hiện phân ca như các bước dưới đây*.
 
@@ -409,21 +409,21 @@ Tại màn hình Danh sách ca làm việc, thêm mới một bản ghi Ca làm 
 
 ***Bước 1:*** Người dùng truy cập vào ứng dụng **Chấm công** > Chọn **Phân ca chi tiết:** Hiển thị danh sách chi tiết phân ca > Nhấn nút **Tạo**
 
-![](images\Ảnh kế toán lương\fin_tienluong_phancachitiet01.png)
+![](Ảnh kế toán lương\fin_tienluong_phancachitiet01.png)
 
 ***Bước 2:*** Điền đầy đủ thông tin Chi tiết phân ca vào các trường bắt buộc:
 
-![](images\Ảnh kế toán lương\fin_tienluong_phancachitiet02.png)
+![](Ảnh kế toán lương\fin_tienluong_phancachitiet02.png)
 
 ***Lưu ý:***
 
 - *Nếu chọn phòng ban áp dụng, hệ thống sẽ hiển thị tất cả nhân viên trong phòng ban đó và áp dụng ca làm việc này (người dùng có thể xoá nhân viên không áp dụng ca làm việc):*
 
-![](images\Ảnh kế toán lương\fin_tienluong_phancachitiet03.png)
+![](Ảnh kế toán lương\fin_tienluong_phancachitiet03.png)
 
 - *Người dùng cũng có thể chọn nhân viên từ các đơn vị khác nhau để phân ca bằng cách không chọn phòng ban áp dụng mà chọn cụ thể từng nhân viên:*
 
-![](images\Ảnh kế toán lương\fin_tienluong_phancachitiet04.png)
+![](Ảnh kế toán lương\fin_tienluong_phancachitiet04.png)
 
 - *Người dùng không thể Tạo chi tiết phân ca với các ca làm việc có thời gian trùng nhau. Trường hợp người dùng chưa muốn duyệt Chi tiết phân ca thì nhấn Lưu để Lưu bản nháp.*
 
@@ -431,7 +431,7 @@ Tại màn hình Danh sách ca làm việc, thêm mới một bản ghi Ca làm 
 
 ***Bước 3:***
 
-Bấm nút **Duyệt** <img src="images\Ảnh kế toán lương\fin_tienluong_duyet_btn.png" style="zoom:75%;" /> để duyệt Chi tiết phân ca. Chi tiết phân ca sau khi được duyệt sẽ xuất hiện tại Bảng tổng hợp phân ca.
+Bấm nút **Duyệt** <img src="Ảnh kế toán lương\fin_tienluong_duyet_btn.png" style="zoom:75%;" /> để duyệt Chi tiết phân ca. Chi tiết phân ca sau khi được duyệt sẽ xuất hiện tại Bảng tổng hợp phân ca.
 
 Người dùng xem Bảng tổng hợp phân ca bằng cách vào mục **Chấm công** >> **Bảng tổng hợp phân ca**
 
@@ -445,11 +445,11 @@ Người dùng xem Bảng tổng hợp phân ca bằng cách vào mục **Chấm
 
 *Bước 1:* Người dùng truy cập vào ứng dụng **Chấm công** > Chọn mục **Ca làm việc** > Nhấn chọn **Đề nghị đổi ca**: Hiển thị danh sách Đề nghị đổi ca > Nhấn nút **Tạo**
 
-![](images\Ảnh kế toán lương\fin_tienluong_denghidoica01.png)
+![](Ảnh kế toán lương\fin_tienluong_denghidoica01.png)
 
 *Bước 2:* Điền thông tin vào các trường bắt buộc
 
-![](images\Ảnh kế toán lương\fin_tienluong_denghidoica02.png)
+![](Ảnh kế toán lương\fin_tienluong_denghidoica02.png)
 
 Sau đó nhấn **Lưu**, bản ghi ở trạng thái Nháp, chờ duyệt.
 
@@ -469,11 +469,11 @@ Với mỗi yêu cầu đổi ca, người được chọn duyệt trong yêu c�
 
 - Người dùng chấp thuận đề nghị đổi ca thì nhấn **Duyệt**, bản ghi chuyển về trạng thái Duyệt. Tại Bảng tổng hợp phân ca, ca của hai nhân viên đó sẽ được thay đổi cho nhau
 
-  ![](images\Ảnh kế toán lương\fin_tienluong_denghidoica03.png)
+  ![](Ảnh kế toán lương\fin_tienluong_denghidoica03.png)
 
 - Ngược lại, người dùng nhấn **Từ chối**, bản ghi chuyển về trạng thái Từ chối. Không có sự thay đổi nào ở Bảng tổng hợp phân ca. Người duyệt có thể chuyển bản ghi về trạng thái Nháp bằng cách nhấn vào **Chuyển về Nháp** để người đề nghị đổi ca có thể chỉnh sửa.
 
-  ![](images\Ảnh kế toán lương\fin_tienluong_denghidoica04.png)
+  ![](Ảnh kế toán lương\fin_tienluong_denghidoica04.png)
 
 #### Tổng hợp phân ca
 
@@ -481,7 +481,7 @@ Các nghiệp vụ, lưu ý trên bảng tổng hợp công, người dùng xem 
 
 Người dùng xem bảng tổng hợp công trên hệ thống bằng cách vào menu **Chấm công** >> Chọn **Tổng hợp công**: Hệ thống hiển thị dữ liệu chấm công của tất cả nhân viên (bao gồm cả nhân viên làm theo giờ hành chính, và các nhân viên làm theo ca) tại tháng hiện tại như hình sau:
 
-![](images\Ảnh kế toán lương\fin_tienluong_tonghopphanca.png)
+![](Ảnh kế toán lương\fin_tienluong_tonghopphanca.png)
 
 ### Đăng ký công
 
@@ -491,7 +491,7 @@ Người dùng xem bảng tổng hợp công trên hệ thống bằng cách và
 
 Vào menu **Đăng ký công** >> Chọn **Đăng ký công** >> Bấm **Tạo**, nhập liệu và bấm **Lưu** để hoàn tất (chờ người có thẩm quyền duyệt) hoặc bấm **Tạo bản nháp** để lưu đơn với trạng thái Nháp
 
-![](images\Ảnh kế toán lương\fin_tienluong_dangkycong01.png)
+![](Ảnh kế toán lương\fin_tienluong_dangkycong01.png)
 
 *Lưu ý: Người quản lý công có thể thực hiện tạo đơn đăng ký công cho từng nhân viên, cả công ty, cả 1 phòng/ban, theo nhóm nhân viên chung nhãn bằng cách lựa chọn phù hợp chế độ đăng ký ở hình trên.*
 
@@ -508,7 +508,7 @@ Hướng dẫn các bước thực hiện trên hệ thống theo các đối t�
 - Người dùng vào menu **Đăng ký công** >> Chọn **Đăng ký công** >> Hệ thống hiển thị danh sách đơn đăng ký công của nhân viên do người dùng phụ trách quản lý trực tiếp
 - Người dùng tìm thực hiện bấm **Duyệt** nếu chấp thuận đơn đăng ký công, hoặc ngược lại thì bấm **Từ chối**. Người dùng có thể tích chọn nhiều đơn để duyệt/ từ chối 1 lần
 
-![](images\Ảnh kế toán lương\fin_tienluong_dangkycong02.png)
+![](Ảnh kế toán lương\fin_tienluong_dangkycong02.png)
 
 - Quản lý công: Đối tượng này được phép duyệt tất cả đơn đăng ký công của nhân viên trừ đơn của bản thân
 - Người dùng vào menu **Đăng ký công** >> Chọn **Đăng ký công** >> Hệ thống hiển thị mặc danh sách đơn đăng ký công của nhân viên do người dùng phụ trách quản lý trực tiếp, người dùng có thể xoá bộ lọc trên thanh tìm kiếm để xem đơn đăng ký của tất cả các nhân viên trong công ty
@@ -528,7 +528,7 @@ Với các loại đăng ký cấu hình đăng kỳ phân bổ theo chế độ
 
 Vào menu **Đăng ký công** >> Chọn **Đăng phân bổ** >> Bấm **Tạo**, nhập liệu và bấm **Lưu** để hoàn tất (chờ người có thẩm quyền duyệt) hoặc bấm **Tạo bản nháp** để lưu đơn với trạng thái Nháp
 
-![](images\Ảnh kế toán lương\fin_tienluong_dangkyphanbo01.png)
+![](Ảnh kế toán lương\fin_tienluong_dangkyphanbo01.png)
 
 *Lưu ý: Người quản lý công có thể thực hiện tạo đơn đăng ký phânboor cho từng nhân viên, cả công ty, cả 1 phòng/ban, theo nhóm nhân viên chung nhãn bằng cách lựa chọn phù hợp chế độ đăng ký ở hình trên.*
 
@@ -545,7 +545,7 @@ Hướng dẫn các bước thực hiện trên hệ thống theo các đối t�
 - Người dùng vào menu **Đăng ký công** >> Chọn **Đăng ký phân bổ** >> Hệ thống hiển thị danh sách đơn đăng ký phân bổ của nhân viên do người dùng phụ trách quản lý trực tiếp
 - Người dùng tìm thực hiện bấm **Duyệt** nếu chấp thuận đơn đăng ký công, hoặc ngược lại thì bấm **Từ chối**. Người dùng có thể tích chọn nhiều đơn để duyệt/ từ chối 1 lần
 
-![](images\Ảnh kế toán lương\fin_tienluong_dangkyphanbo02.png)
+![](Ảnh kế toán lương\fin_tienluong_dangkyphanbo02.png)
 
 - Quản lý công: Đối tượng này được phép duyệt tất cả đơn đăng ký công của nhân viên trừ đơn của bản thân
 - Người dùng vào menu **Đăng ký công** >> Chọn **Đăng ký phân bổ** >> Hệ thống hiển thị mặc danh sách đơn đăng ký công của nhân viên do người dùng phụ trách quản lý trực tiếp, người dùng có thể xoá bộ lọc trên thanh tìm kiếm để xem đơn đăng ký của tất cả các nhân viên trong công ty
@@ -600,7 +600,7 @@ Các dữ liệu về chấm công sẽ được lấy từ phân hệ Chấm c�
 
 ***Bước 1:*** Người dùng truy cập vào hệ thống, chọn **Tiền lương > Bảng lương > Cấu trúc lương**
 
-![](images\Ảnh kế toán lương\fin_tienluong_bangluong01.png)
+![](Ảnh kế toán lương\fin_tienluong_bangluong01.png)
 
 ***Bước 2***: Người dùng thực hiện nhập các thông tin chung về cấu trúc lương
 
@@ -609,7 +609,7 @@ Các dữ liệu về chấm công sẽ được lấy từ phân hệ Chấm c�
 
 Tại bảng phần tử lương, người dùng thực hiện khai báo các phần tử cấu thành nên cấu trúc lương, dựa trên công thức tính lương của công ty và sử dụng các từ khóa tham số ở bảng bên cạnh
 
-![](images\Ảnh kế toán lương\fin_tienluong_bangluong02.png)
+![](Ảnh kế toán lương\fin_tienluong_bangluong02.png)
 
 - Cột tên: nhập tên phần tử lương sao cho dễ gợi nhớ
 - Cột mã: nhập mã tương ứng với mỗi phần tử, sao cho các phần tử không bị lặp lại mã, và đảm bảo tính chất dễ hiểu, dễ ghi nhớ trong quá trình tạo phần tử và tạo công thức
@@ -631,7 +631,7 @@ Nhân viên phụ trách tính lương tạo xong các dữ liệu tính lương
 
 ***Bước 1:*** Người dùng truy cập vào hệ thống, chọn phân hệ **Tiền lương > Bảng lương > Tạo**
 
-![img](images\Ảnh kế toán lương\fin_tienluong_bangluong03.png)
+![img](Ảnh kế toán lương\fin_tienluong_bangluong03.png)
 
 - Tên: Nhập tên bảng lương cần tạo.
 - Chu kỳ: Chọn thời gian để thực hiện tính toán.
@@ -640,54 +640,54 @@ Nhân viên phụ trách tính lương tạo xong các dữ liệu tính lương
 
 ***Bước 2:*** Chọn **Chi tiết phiếu lương**, lúc này sẽ chuyển sang màn hình phiếu lương cho nhân viên.
 
-![img](images\Ảnh kế toán lương\fin_tienluong_bangluong04.png)
+![img](Ảnh kế toán lương\fin_tienluong_bangluong04.png)
 
 - Nếu chọn 1 hoặc 1 nhóm nhân viên thì thực hiện tích chọn vào các ô đầu dòng, chọn **Tính toán phiếu lương**
 
-![img](images\Ảnh kế toán lương\fin_tienluong_bangluong05.png)
+![img](Ảnh kế toán lương\fin_tienluong_bangluong05.png)
 
 - Hệ thống tự tính toán phiếu lương cho nhân viên dựa vào các dữ liệu công, phụ cấp,.. từ dữ liệu chấm công , đăng ký công đã nhập trước đó
 
-![img](images\Ảnh kế toán lương\fin_tienluong_bangluong06.png)
+![img](Ảnh kế toán lương\fin_tienluong_bangluong06.png)
 
 - Để xem chi tiết phiếu lương của từng nhân viên double-click vào1 phiếu lương đã tính toán, sẽ chuyển sang màn hình chi tiết phiếu lương của nhân viên
 
-![img](images\Ảnh kế toán lương\fin_tienluong_bangluong07.png)
+![img](Ảnh kế toán lương\fin_tienluong_bangluong07.png)
 
-![img](images\Ảnh kế toán lương\fin_tienluong_bangluong08.png)
+![img](Ảnh kế toán lương\fin_tienluong_bangluong08.png)
 
-![img](images\Ảnh kế toán lương\fin_tienluong_bangluong09.png)
+![img](Ảnh kế toán lương\fin_tienluong_bangluong09.png)
 
-![img](images\Ảnh kế toán lương\fin_tienluong_bangluong10.png)
+![img](Ảnh kế toán lương\fin_tienluong_bangluong10.png)
 
 - Sau khi kiểm tra xong tất cả cá phiếu lương đã tính toán, dữ liệu lương đúng, sẽ Duyệt phiếu lương
 - Tại màn hình Chi tiết phiếu lương, chọn 1 hoặc 1 nhóm nhân viên thì thực hiện tích chọn vào các ô đầu dòng, chọn Duyệt phiếu lương
 
-![img](images\Ảnh kế toán lương\fin_tienluong_bangluong11.png)
+![img](Ảnh kế toán lương\fin_tienluong_bangluong11.png)
 
 ***Bước 3:*** Chọn **Hạch toán lương**, lúc này sẽ sinh ra Bút toán cho bảng lương
 
 **Lưu ý**: Để sinh Hạch toán các Phiếu lương phải ở trạng thái “Đã phê duyệt” hoặc “Bị từ chối”
 
-![](images\Ảnh kế toán lương\fin_tienluong_bangluong_hachtoan01.png)
+![](Ảnh kế toán lương\fin_tienluong_bangluong_hachtoan01.png)
 
 - Click “Bút toán”, sẽ chuyển sang màn hình Bút toán sinh ra.
 
-![img](images\Ảnh kế toán lương\fin_tienluong_bangluong12.png)
+![img](Ảnh kế toán lương\fin_tienluong_bangluong12.png)
 
-![img](images\Ảnh kế toán lương\fin_tienluong_bangluong13.png)
+![img](Ảnh kế toán lương\fin_tienluong_bangluong13.png)
 
-![img](images\Ảnh kế toán lương\fin_tienluong_bangluong14.png)
+![img](Ảnh kế toán lương\fin_tienluong_bangluong14.png)
 
 - Chi tiết bút toán phát sinh sẽ lấy lên các đầu tài khoản và giá trị tương ứng .
 
 ***Bước 3:*** Bảng lương đã sinh Bút toán, Chọn “**Đóng**”
 
-![img](images\Ảnh kế toán lương\fin_tienluong_bangluong15.png)
+![img](Ảnh kế toán lương\fin_tienluong_bangluong15.png)
 
 ***Bước 4:*** Chọn “**Ghi nhận thanh toán**”, hiển thị ra popup thanh toán
 
-![img](images\Ảnh kế toán lương\fin_tienluong_bangluong16.png)
+![img](Ảnh kế toán lương\fin_tienluong_bangluong16.png)
 
 - NSD chọ Sổ nhật ký: Cách thanh toán theo tiền mặt hay tiền gửi .
 - Ngày thanh toán: Lấy mặc định ngày tạo thanh toán, có thể sửa lại ngày theo mong muốn
@@ -699,10 +699,10 @@ Nhân viên phụ trách tính lương tạo xong các dữ liệu tính lương
 
 - Sau khi kiểm tra thông tin chính xác, chọn **Tạo thanh toán** để thanh toán lương cho nhân viên, khi đó phiếu chi tiền mặt/phiếu chi tiền gửi sẽ được sinh ra
 
-![img](images\Ảnh kế toán lương\fin_tienluong_bangluong17.png)
+![img](Ảnh kế toán lương\fin_tienluong_bangluong17.png)
 
 - Chọn Phiếu chi, để xem chi tiết thông tin phiếu chi tiền được sinh ra khi ghi nhận thanh toán. Mỗi bảng lương có thể thanh toán nhiều lần, mỗi lần sẽ sinh ra 1 phiếu chi tiền tương ứng
 
-![img](images\Ảnh kế toán lương\fin_tienluong_bangluong18.png)
+![img](Ảnh kế toán lương\fin_tienluong_bangluong18.png)
 
  
